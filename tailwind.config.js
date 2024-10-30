@@ -42,7 +42,29 @@ module.exports = {
       fontFamily: {
         lexend: ["lexend", "sans-serif"],
       },
+      animation: {
+        blob: "blob 20s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "25%": {
+            transform: "scale(1.05)",
+          },
+          "50%": {
+            transform: "scale(1)",
+          },
+          "75%": {
+            transform: "scale(1.10)",
+          },
+          "100%": {
+            transform: "scale(1)",
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 };

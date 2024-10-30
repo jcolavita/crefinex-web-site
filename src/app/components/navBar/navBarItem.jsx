@@ -8,7 +8,7 @@ export default function NavBarItem({ children, ...props }) {
         " md:hover:scale-110 cursor-pointer transition-all ease-in-out duration-200 px-[20px] py-4 md:py-0 text-white "
       }
     >
-      <a link={props.Link} className=" font-semibold md:text-lg text-base ">
+      <a link={props.Link} className=" font-medium md:text-base text-sm  ">
         {children}
       </a>
     </li>

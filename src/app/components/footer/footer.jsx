@@ -17,11 +17,11 @@ import {
 
 function Footer() {
   return (
-    <footer className=" bg-BLUE-100 px-[25px] md:px-[100px] py-[30px] font-lexend">
+    <footer className=" bg-BLUE-100 px-[25px] md:px-[100px] py-[30px] font-lexend text-BLUE-700">
       <div className="md:flex justify-between">
         <div className="flex flex-col items-center md:w-[333px]  ">
           <CrefinexLogo fill={"#14093E"} className=" w-[305px] h-[130px] " />
-          <p className="text-BLUE-700 font-bold w-full text-center text-lg ">
+          <p className=" font-semibold w-full text-center text-base ">
             Creciendo Financiera-Mente Exitoso
           </p>
         </div>
@@ -47,31 +47,29 @@ function Footer() {
         </div>
         <div className=" md:w-[310px] w-auto px-[24px] md:pt-[24px] pb-[35px] md:pb-0">
           <ul className="">
-            <div className="pb-[20px]">
+            <div className="pb-[20px] md:text-base text-sm">
               <FooterItem className=" md:hover:scale-100">
                 <FaMapMarkerAlt color={"#14093E"} size={24} />
                 <p className="pl-[10px]">Ubicación</p>
               </FooterItem>
-              <p className="pl-[34px] -mt-[30px] text-BLUE-700 text-lg">
+              <p className="pl-[34px] -mt-[30px] ">
                 Centro comercial parque aragua nivel 1 oficina - 31
               </p>
             </div>
-            <div className="md:text-lg text-base">
+            <div className="md:text-base text-sm">
               <FooterItem className=" md:hover:scale-100 ">
                 <FaPhoneAlt color={"#14093E"} size={24} />
                 <p className="pl-[10px]">Contacto</p>
               </FooterItem>
-              <p className="pl-[34px] -mt-[30px] text-BLUE-700 ">
-                contacto@crefinex.com
-              </p>
-              <p className="pl-[34px]  text-BLUE-700  ">+58424-379 37 17</p>
+              <p className="pl-[34px] -mt-[30px] ">contacto@crefinex.com</p>
+              <p className="pl-[34px]   ">+58424-379 37 17</p>
             </div>
           </ul>
         </div>
       </div>
       <hr className=" h-1 w-full bg-BLUE-700" />
-      <div className="md:flex justify-between pt-[15px]">
-        <div className="w-full md:w-auto text-BLUE-700  font-light text-center md:text-left">
+      <div className="md:flex justify-between pt-[15px] text-sm">
+        <div className="w-full md:w-auto font-light text-center md:text-left">
           <p className="   ">Crefinex 2024 All right reserved.</p>
           <p className=" pb-[10px] md:pb-0 ">
             Developed and Designed by Jose Colavita.

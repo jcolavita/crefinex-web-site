@@ -5,7 +5,7 @@ export default function Cards({ children, ...props }) {
     <div
       className={
         props.className +
-        " md:h-[430px] md:w-[370px] h-[340px] w-[270px]  bg-white md:rounded-3xl rounded-xl relative shadow-md shadow-slate-700 mb-3 md:mb-0"
+        " md:h-[420px] md:w-[350px] h-[340px] w-[270px]  bg-white md:rounded-3xl rounded-xl relative shadow-md shadow-slate-700 mb-3 md:mb-0"
       }
     >
       <div

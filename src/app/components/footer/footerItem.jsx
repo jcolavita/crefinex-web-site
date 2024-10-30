@@ -11,7 +11,7 @@ function FooterItem({ children, ...props }) {
       <a
         href={props.link}
         target="blank"
-        className="flex text-BLUE-700 items-center text-lg font-bold"
+        className="flex text-BLUE-700 items-center md:text-lg text-base font-bold"
       >
         {props.leftIcon} {children}
       </a>

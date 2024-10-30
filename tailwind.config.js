@@ -39,6 +39,9 @@ module.exports = {
         "TURQUOISE-200": "#43D6F9",
         "TURQUOISE-100": "#D6F2FD",
       },
+      fontFamily: {
+        lexend: ["lexend", "sans-serif"],
+      },
     },
   },
   plugins: [],

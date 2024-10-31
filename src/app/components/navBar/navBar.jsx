@@ -15,7 +15,9 @@ export default function NavBar() {
       className={`fixed z-50 top-0 font-lexend md:flex items-center bg-gradient-to-b md:bg-gradient-to-br from-PURPLE-400 to-BLUE-700  w-full h-[60px] px-[25px] md:px-[100px] py-[10px] justify-between`}
     >
       <div className=" justify-between flex items-center">
-        <CrefinexLogo fill={"#ffffff"} className="h-[40px] w-[95px]" />
+        <NavBarItem link="/">
+          <CrefinexLogo fill={"#ffffff"} className="h-[40px] w-[95px]" />
+        </NavBarItem>
         <IoMenu
           fill={"#ffffff"}
           className="md:hidden"

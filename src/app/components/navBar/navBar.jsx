@@ -29,10 +29,10 @@ export default function NavBar() {
           isOpen ? ` top-[60px] opacity-100 ` : " top-[-400px] opacity-0 "
         } `}
       >
-        <NavBarItem>Inicio</NavBarItem>
-        <NavBarItem>Cursos</NavBarItem>
-        <NavBarItem>¿Quienes Somos?</NavBarItem>
-        <NavBarItem>Preguntas frecuentes</NavBarItem>
+        <NavBarItem link="/">Inicio</NavBarItem>
+        <NavBarItem link="/">Cursos</NavBarItem>
+        <NavBarItem link="/">¿Quienes Somos?</NavBarItem>
+        <NavBarItem link="/">Preguntas frecuentes</NavBarItem>
       </ul>
     </nav>
   );

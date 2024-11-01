@@ -27,9 +27,11 @@ export default function NavBar() {
       </div>
 
       <ul
-        className={`flex flex-col gap-10 md:flex-row justify-between gap-y-4 py-4 md:py-0 bg-BLUE-700 z-50 md:bg-transparent   md:static absolute md:w-auto w-full left-0 transition-all ease-in-out duration-500 md:opacity-100${
-          isOpen ? ` top-[60px] opacity-100 ` : " top-[-400px] opacity-0 "
-        } `}
+        className={`flex flex-col md:flex-row justify-between gap-y-4 py-4 gap-x-10 md:py-0 px-[25px] bg-BLUE-700 
+          z-50 md:bg-transparent   md:static absolute md:w-auto w-full left-0 transition-all ease-in-out 
+          duration-500 md:opacity-100${
+            isOpen ? ` top-[60px] opacity-100 ` : " top-[-400px] opacity-0 "
+          } `}
       >
         <NavBarItem link="/">Inicio</NavBarItem>
         <NavBarItem link="/courses">Cursos</NavBarItem>

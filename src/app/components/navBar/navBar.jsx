@@ -32,7 +32,7 @@ export default function NavBar() {
         } `}
       >
         <NavBarItem link="/">Inicio</NavBarItem>
-        <NavBarItem link="/">Cursos</NavBarItem>
+        <NavBarItem link="/courses">Cursos</NavBarItem>
         <NavBarItem link="/">¿Quienes Somos?</NavBarItem>
         <NavBarItem link="/">Preguntas frecuentes</NavBarItem>
       </ul>

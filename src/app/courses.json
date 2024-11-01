@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "1"
+  },
+  {
+    "id": 2,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "1"
+  },
+  {
+    "id": 3,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "2"
+  },
+  {
+    "id": 4,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "3"
+  },
+  {
+    "id": 5,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "2"
+  },
+  {
+    "id": 6,
+    "name": "Curso de React",
+    "description": "Aprende React desde cero",
+    "durationH": "1 hora",
+    "durationC": "5 clases",
+    "module": "5"
+  }
+]

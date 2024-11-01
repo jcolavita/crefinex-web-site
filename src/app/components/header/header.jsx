@@ -1,5 +1,6 @@
 import React from "react";
 import BlurryItem from "../decorations/blurryItem";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -15,10 +16,10 @@ export default function Header() {
           <p className=" font-semibold text-xl md:pb-[25px] pb-[15px] text-BLUE-700">
             ¡Aprender finanzas nunca fue tan divertido!
           </p>
-          <button className=" md:w-[350px] w-full h-[55px] bg-gradient-to-br from-PURPLE-400 to-BLUE-700 rounded-lg">
-            <a className=" text-white text-lg font-medium">
+          <button className=" md:w-[350px] w-full h-[55px] bg-gradient-to-br from-PURPLE-400 to-BLUE-700 rounded-lg md:hover:scale-105 transition-all ease-in-out duration-200 ">
+            <Link className=" text-white text-lg font-medium" href={"/courses"}>
               No te pierdas Nuestros cursos
-            </a>
+            </Link>
           </button>
         </div>
       </div>

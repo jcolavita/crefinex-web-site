@@ -27,19 +27,19 @@ function Footer() {
         </div>
         <div className="   md:w-[291px] w-auto  px-[24px] pt-[24px] ">
           <ul>
-            <FooterItem className="cursor-pointer">
+            <FooterItem className="cursor-pointer" link="/courses">
               <FaBookBookmark color={"#14093E"} size={24} />
               <p className="pl-[10px]">Cursos</p>
             </FooterItem>
-            <FooterItem className="cursor-pointer">
+            <FooterItem className="cursor-pointer" link="/">
               <FaCircleInfo color={"#14093E"} size={24} />
               <p className="pl-[10px]">¿Quienes Somos?</p>
             </FooterItem>
-            <FooterItem className="cursor-pointer">
+            <FooterItem className="cursor-pointer" link="/">
               <FaQuestionCircle color={"#14093E"} size={24} />
               <p className="pl-[10px]">Preguntas frecuentes</p>
             </FooterItem>
-            <FooterItem className="cursor-pointer">
+            <FooterItem className="cursor-pointer" link="/">
               <FaUser color={"#14093E"} size={24} />
               <p className="pl-[10px]">Yismary Arias</p>
             </FooterItem>
@@ -48,7 +48,7 @@ function Footer() {
         <div className=" md:w-[310px] w-auto px-[24px] md:pt-[24px] pb-[35px] md:pb-0">
           <ul className="">
             <div className="pb-[20px] md:text-base text-sm">
-              <FooterItem className=" md:hover:scale-100">
+              <FooterItem className="">
                 <FaMapMarkerAlt color={"#14093E"} size={24} />
                 <p className="pl-[10px]">Ubicación</p>
               </FooterItem>
@@ -57,7 +57,7 @@ function Footer() {
               </p>
             </div>
             <div className="md:text-base text-sm">
-              <FooterItem className=" md:hover:scale-100 ">
+              <FooterItem className="  ">
                 <FaPhoneAlt color={"#14093E"} size={24} />
                 <p className="pl-[10px]">Contacto</p>
               </FooterItem>

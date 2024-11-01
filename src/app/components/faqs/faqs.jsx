@@ -10,7 +10,7 @@ function Faqs() {
         src={QuestionBg}
         alt="question background"
         fill={true}
-        className=" object-cover bg-blend-multiply absolute z-0"
+        className=" object-cover absolute z-0"
       />
 
       <div className="bg-gradient-to-br   from-PURPLE-400/90  to-BLUE-700/90 w-[100%]  h-[100%] absolute  z-10 "></div>

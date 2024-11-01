@@ -3,6 +3,9 @@ import React from "react";
 import Grupo from "../../../../public/images/crefinex-grupo.JPG";
 import Cards from "./cards";
 import Testimonials from "./testimonials/testimonial";
+import Calculator from "../../../../public/images/calculator.svg";
+import Global from "../../../../public/images/global.svg";
+import Mind from "../../../../public/images/mind.svg";
 
 function AboutUs() {
   return (
@@ -35,6 +38,7 @@ function AboutUs() {
               title="Aprender Divirtiendose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                 financieros saludables para un futuro brillante"
+              icon={Global}
             ></Cards>
             <Cards
               bgColor=" bg-PURPLE-400"
@@ -42,6 +46,7 @@ function AboutUs() {
               title="Aprender Divirtiendose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                 financieros saludables para un futuro brillante"
+              icon={Calculator}
             ></Cards>
             <Cards
               bgColor=" bg-PURPLE-400"
@@ -49,6 +54,7 @@ function AboutUs() {
               title="Aprender Divirtiendose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                 financieros saludables para un futuro brillante"
+              icon={Mind}
             ></Cards>
           </div>
         </div>

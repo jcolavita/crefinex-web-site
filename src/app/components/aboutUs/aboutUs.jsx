@@ -29,33 +29,27 @@ function AboutUs() {
         </p>
         <div className=" md:w-full flex justify-center  md:justify-between  text-BLUE-700">
           <div className="md:w-full md:flex-row flex flex-col md:justify-between gap-y-10">
-            <Cards bgColor=" bg-PURPLE-400" circleOutline="outline-PURPLE-400">
-              <p className=" md:text-2xl text-lg pb-[10px]">
-                Aprender Divirtiendose
-              </p>
-              <p className="text-sm md:text-base">
-                Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante
-              </p>
-            </Cards>
-            <Cards bgColor=" bg-PURPLE-400" circleOutline="outline-PURPLE-400">
-              <p className=" md:text-2xl text-lg pb-[10px]">
-                Aprender Divirtiendose
-              </p>
-              <p className="text-sm md:text-base">
-                Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante
-              </p>
-            </Cards>
-            <Cards bgColor=" bg-PURPLE-400" circleOutline="outline-PURPLE-400">
-              <p className=" md:text-2xl text-lg pb-[10px]">
-                Aprender Divirtiendose
-              </p>
-              <p className="text-sm md:text-base">
-                Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante
-              </p>
-            </Cards>
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Aprender Divirtiendose"
+              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
+                financieros saludables para un futuro brillante"
+            ></Cards>
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Aprender Divirtiendose"
+              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
+                financieros saludables para un futuro brillante"
+            ></Cards>
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Aprender Divirtiendose"
+              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
+                financieros saludables para un futuro brillante"
+            ></Cards>
           </div>
         </div>
       </div>

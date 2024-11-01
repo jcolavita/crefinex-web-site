@@ -6,10 +6,10 @@ export default function Testimonial() {
     <div className="  w-full md:h-[600x] h-auto bg-gradient-to-br from-PURPLE-400 to-BLUE-700 mt-[50px]  py-[30px]">
       <div className="md:flex md:px-[100px] px-[25px]">
         <div className=" md:w-[315px] w-full md:pr-[30px] pr-0 pt-5">
-          <div className="h-[120px] w-[120px] bg-white  rounded-full"></div>
-          <h4 className="md:text-3xl text-xl font-bold md:w-[285px] text-center md:text-left">
+          <div className="h-[120px] w-[120px] bg-white  rounded-full hidden md:block"></div>
+          <h3 className="md:text-3xl text-2xl font-bold text-white md:w-[285px] text-center md:text-left md:mb-0 mb-10">
             Ellos son la prueba de nuestro esfuerzo
-          </h4>
+          </h3>
         </div>
         <div className="md:flex-row flex flex-col justify-between w-full items-center gap-y-10">
           <TestimonialCard

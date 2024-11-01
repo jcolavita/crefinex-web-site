@@ -5,7 +5,7 @@ export default function Cards({ children, ...props }) {
     <div
       className={
         props.className +
-        " md:h-[420px] md:w-[350px] h-[340px] w-[270px]  bg-white md:rounded-3xl rounded-xl relative shadow-md shadow-slate-700 "
+        " md:h-[390px] md:w-[310px] h-[340px] w-[270px]  bg-white md:rounded-3xl rounded-xl relative shadow-md shadow-slate-700 "
       }
     >
       <div
@@ -27,8 +27,9 @@ export default function Cards({ children, ...props }) {
           </div>
         </div>
       </div>
-      <div className="md:px-[24px] px-[12px] md:pt-[100px] pt-[70px] text-center">
-        {children}
+      <div className="md:px-[20px] px-[10px] md:pt-[70px] pt-[70px] text-center text-base">
+        <p className="  text-lg pb-[10px]">{props.title}</p>
+        <p className="text-sm md:text-base">{props.text}</p>
       </div>
     </div>
   );

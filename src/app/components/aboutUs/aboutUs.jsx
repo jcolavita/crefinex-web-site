@@ -18,7 +18,7 @@ function AboutUs() {
           <Image
             src={Grupo}
             alt="Grupo de clases Crefinex"
-            className="h-[716px w-[1160px] aspect-video rounded-3xl"
+            className=" w-[1160px] aspect-video rounded-3xl"
           />
         </div>
         <p className="text-center text-base md:text-lg md:pb-[60px] pb-[30px] text-BLUE-700">

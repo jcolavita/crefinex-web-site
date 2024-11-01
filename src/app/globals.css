@@ -37,4 +37,10 @@ body {
   .animation-delay-500 {
     animation-delay: 500ms;
   }
+  .itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  .chevronAnimation {
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+  }
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Cards({ children, ...props }) {
@@ -20,9 +21,11 @@ export default function Cards({ children, ...props }) {
               <div
                 className={
                   props.circleOutline +
-                  " w-[80%] h-[80%] outline rounded-full absolute top-0 left-0 bottom-0 right-0 m-auto"
+                  " w-[80%] h-[80%] outline rounded-full absolute top-0 left-0 bottom-0 right-0 m-auto flex justify-center"
                 }
-              ></div>
+              >
+                <Image src={props.icon} alt="Icon" className=" w-[80%]" />
+              </div>
             </div>
           </div>
         </div>

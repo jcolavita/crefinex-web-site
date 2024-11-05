@@ -1,50 +1,84 @@
 [
   {
-    "id": 1,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "1"
+    "id": "1",
+    "title": "Aprender a Leer",
+    "hours": "X Horas",
+    "classesCantity": "X Clases",
+    "price": "100",
+    "module": "1",
+    "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "moreInfo": ["cccc", "bbb", "aaa"],
+    "target": [
+      "Edad 7 a 15 años.",
+      "Problemas para identificar las letras.",
+      "Dificultad para dividir las palabras en forma individuales.",
+      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
+      "Le cuesta responder preguntas sobre el texto leído.",
+      "Dificultad para sacar conclusiones sobre el texto leído.",
+      "Falta de Interés por la lectura.",
+      "Problemas de atención y concentración.",
+      "Dificultad para escuchar y escribir a la vez."
+    ],
+    "background": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
+    "buyLink": "https://www.google.com",
+    "yismary": "https://ik.imagekit.io/crefinex/Course1/yismary.png?updatedAt=1730834106150",
+    "cover": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739"
   },
   {
-    "id": 2,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "1"
+    "id": "2",
+    "title": "aprender a leer 2",
+    "hours": "X Horas",
+    "classesCantity": "X Clases",
+    "price": "100",
+    "module": "1",
+    "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "moreInfo": ["cccc", "bbb", "aaa"],
+    "target": [
+      "Edad 7 a 15 años.",
+      "Problemas para identificar las letras.",
+      "Dificultad para dividir las palabras en forma individuales.",
+      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
+      "Le cuesta responder preguntas sobre el texto leído.",
+      "Dificultad para sacar conclusiones sobre el texto leído.",
+      "Falta de Interés por la lectura.",
+      "Problemas de atención y concentración.",
+      "Dificultad para escuchar y escribir a la vez."
+    ],
+    "imagen": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
+    "buyLink": "www.google.com"
   },
   {
-    "id": 3,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "2"
-  },
-  {
-    "id": 4,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "3"
-  },
-  {
-    "id": 5,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "2"
-  },
-  {
-    "id": 6,
-    "name": "Curso de React",
-    "description": "Aprende React desde cero",
-    "durationH": "1 hora",
-    "durationC": "5 clases",
-    "module": "5"
+    "id": "3",
+    "title": "aprender a leer 3",
+    "hours": "X Horas",
+    "classesCantity": "X Clases",
+    "price": "100",
+    "module": "lectura",
+    "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "moreInfo": [
+      "Desarrollo cognitivo.",
+      "Comprensión del vocabulario.",
+      "Mayor comprensión del mundo.",
+      "Mejora de la expresión escrita.",
+      "Desarrollo de la empatía.",
+      "Fomento de la imaginación.",
+      "Mayor concentración.",
+      "Mayor autonomía.",
+      "Disfrute del aprendizaje.",
+      "Mejor desempeño académico."
+    ],
+    "target": [
+      "Edad 7 a 15 años.",
+      "Problemas para identificar las letras.",
+      "Dificultad para dividir las palabras en forma individuales.",
+      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
+      "Le cuesta responder preguntas sobre el texto leído.",
+      "Dificultad para sacar conclusiones sobre el texto leído.",
+      "Falta de Interés por la lectura.",
+      "Problemas de atención y concentración.",
+      "Dificultad para escuchar y escribir a la vez."
+    ],
+    "imagen": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
+    "buyLink": "www.google.com"
   }
 ]

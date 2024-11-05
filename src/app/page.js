@@ -1,6 +1,6 @@
-import Header from "./components/header/header";
-import AboutUs from "./components/aboutUs/aboutUs";
-import Faqs from "./components/faqs/faqs";
+import Header from "./components/header/headerSection";
+import AboutUs from "./components/aboutUs/aboutUsSection";
+import Faqs from "./components/faqs/faqsSection";
 
 export default function Home() {
   return (

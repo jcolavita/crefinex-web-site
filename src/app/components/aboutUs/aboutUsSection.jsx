@@ -1,18 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import Grupo from "../../../../public/images/crefinex-grupo.JPG";
+import Grupo from "../../../../public/images/webp/crefinex-grupo.webp";
 import Cards from "./cards";
 import Testimonials from "./testimonials/testimonial";
-import Calculator from "../../../../public/images/calculator.svg";
-import Global from "../../../../public/images/global.svg";
-import Mind from "../../../../public/images/mind.svg";
+import Calculator from "../../../../public/images/svg/calculator.svg";
+import Global from "../../../../public/images/svg/global.svg";
+import Mind from "../../../../public/images/svg/mind.svg";
 
 function AboutUs() {
   return (
-    <section className=" bg-gradient-to-b from-white to-BLUE-100 w-full font-lexend  pt-[150px] md:pt-[50px]">
+    <section
+      id="about-us"
+      className=" bg-gradient-to-b from-white to-BLUE-100 w-full font-lexend  pt-[150px] md:pt-[50px]"
+    >
       <div className="px-[25px] md:px-[100px]">
         <h2 className=" text-center text-BLUE-700  text-3xl md:text-5xl font-bold mb-[15px] md:mb-[30px]">
-          ?Quienes Somos?
+          ¿Quienes Somos?
         </h2>
         <h3 className="text-xl md:text-3xl font-medium text-BLUE-700 text-center mb-[15px] md:mb-[30px]">
           Comprometidos con la construcción de un futuro mejor

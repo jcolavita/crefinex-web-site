@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import CoursesCard from "./coursescard";
-import data from "@/app/courses.json"; // Asume que tu JSON está en data/cursos.json
+import data from "@/app/courses.json";
 
 function Courses() {
   const [cursosFiltrados, setCursosFiltrados] = useState(data);

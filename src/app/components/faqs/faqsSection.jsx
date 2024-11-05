@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import QuestionBg from "../../../../public/images/question-bg.png";
+import QuestionBg from "../../../../public/images/webp/question-bg.webp";
 import Accordion from "./accordion";
 
 function Faqs() {
   return (
-    <section className="w-full h-auto relative font-lexend  ">
+    <section className="w-full h-auto relative font-lexend  " id="faqs">
       <Image
         src={QuestionBg}
         alt="question background"

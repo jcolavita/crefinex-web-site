@@ -33,10 +33,10 @@ export default function NavBar() {
             isOpen ? ` top-[60px] opacity-100 ` : " top-[-400px] opacity-0 "
           } `}
       >
-        <NavBarItem link="/">Inicio</NavBarItem>
-        <NavBarItem link="/courses">Cursos</NavBarItem>
-        <NavBarItem link="/">¿Quienes Somos?</NavBarItem>
-        <NavBarItem link="/">Preguntas frecuentes</NavBarItem>
+        <NavBarItem link="/#">Inicio</NavBarItem>
+        <NavBarItem link="/pages/courses">Cursos</NavBarItem>
+        <NavBarItem link="/#about-us">¿Quienes Somos?</NavBarItem>
+        <NavBarItem link="/#faqs">Preguntas frecuentes</NavBarItem>
       </ul>
     </nav>
   );

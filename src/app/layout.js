@@ -1,8 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/navBar/navBar";
-import Footer from "./components/footer/footer";
-import { FaWhatsapp } from "react-icons/fa";
+import Footer from "./components/footer/footerSection";
+import WhatsappStickyButton from "./components/whatsappStickyButton/whatsappStickyButton";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,20 +23,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth scroll-pt-14 ">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
         <NavBar />
         {children}
         <Footer />
-        <div
-          className={`fixed md:bottom-14 md:right-10 bottom-10 right-5 shadow-lg shadow-slate-700 transition-all ease-in-out 
-          cursor-pointer md:hover:scale-105  m-auto bg-green-400 z-50 w-[50px] h-[50px] rounded-full 
-          flex justify-center items-center`}
-        >
-          <FaWhatsapp className="w-10 h-10" fill={`#ffffff`} />
-        </div>
+        <WhatsappStickyButton />
       </body>
     </html>
   );

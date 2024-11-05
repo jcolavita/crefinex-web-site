@@ -4,7 +4,10 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="h-[600px] md:px-[100px] px-[25px] md:flex pt-[70px] bg-white font-lexend">
+    <header
+      id=""
+      className="h-[600px] md:px-[100px] px-[25px] md:flex pt-[70px] bg-white font-lexend"
+    >
       <div className="h-auto flex flex-co md:w-[55%] w-auto md:pr-10 text-center md:text-left items-center relative ">
         <BlurryItem className="bg-[#ffff58] right-14 bottom-5 " />
         <BlurryItem className="bg-MAGENTA-200 top-0 left-16 hidden md:block " />
@@ -17,7 +20,10 @@ export default function Header() {
             ¡Aprender finanzas nunca fue tan divertido!
           </p>
           <button className=" md:w-[350px] w-full h-[55px] bg-gradient-to-br from-PURPLE-400 to-BLUE-700 rounded-lg md:hover:scale-105 transition-all ease-in-out duration-200 ">
-            <Link className=" text-white text-lg font-medium" href={"/courses"}>
+            <Link
+              className=" text-white text-lg font-medium"
+              href={"/pages/courses"}
+            >
               No te pierdas Nuestros cursos
             </Link>
           </button>

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import chevronDown from "../../../../public/chevron.svg";
+import chevronDown from "../../../../public/images/svg/chevron.svg";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import Image from "next/image";
 import faqsJSON from "@/app/faqs.json";

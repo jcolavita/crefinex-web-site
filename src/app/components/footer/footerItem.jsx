@@ -10,7 +10,7 @@ function FooterItem({ children, ...props }) {
     >
       <a
         href={props.link}
-        target="blank"
+        target={props.target}
         className="flex text-BLUE-700 items-center md:text-base text-sm font-bold"
       >
         {props.leftIcon} {children}

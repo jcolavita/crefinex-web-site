@@ -16,9 +16,9 @@ export default function Header() {
           <h1 className="text-BLUE-700 md:text-6xl text-4xl  font-bold md:pb-[25px] pb-[15px]">
             Un futuro <br /> Financiero Sólido Para tus Hijos
           </h1>
-          <p className=" font-semibold text-xl md:pb-[25px] pb-[15px] text-BLUE-700">
+          <h6 className=" font-semibold md:text-xl text-lg md:pb-[25px] pb-[15px] text-BLUE-700">
             ¡Aprender finanzas nunca fue tan divertido!
-          </p>
+          </h6>
           <button className=" md:w-[350px] w-full h-[55px] bg-gradient-to-br from-PURPLE-400 to-BLUE-700 rounded-lg md:hover:scale-105 transition-all ease-in-out duration-200 ">
             <Link
               className=" text-white text-lg font-medium"

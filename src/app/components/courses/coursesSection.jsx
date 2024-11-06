@@ -17,7 +17,7 @@ function Courses() {
 
   return (
     <div className="md:px-[100px] px-[25px] mt-14">
-      <div className="flex w-full justify-between font-semibold items-end">
+      <div className="flex w-full justify-between font-medium items-end">
         <button
           onClick={() => handleModuloChange("todos")}
           className={`
@@ -36,7 +36,7 @@ function Courses() {
             key={moduloUnico}
             onClick={() => handleModuloChange(moduloUnico)}
             className={`
-               w-full rounded-t-xl h-[40px] hover:h-[55px] transition-all ease-in-out  
+               w-full rounded-t-xl h-[40px] md:hover:h-[55px] transition-all ease-in-out text-sm md:text-base  
               ${
                 selectedModulo === moduloUnico
                   ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[55px] text-white shadow-lg shadow-slate-500"

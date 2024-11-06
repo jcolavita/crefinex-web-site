@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <div className="   md:w-[291px] w-auto  px-[24px] pt-[24px] ">
           <ul>
-            <FooterItem className="cursor-pointer" link="/courses">
+            <FooterItem className="cursor-pointer" link="/pages/courses">
               <FaBookBookmark color={"#14093E"} size={24} />
               <p className="pl-[10px]">Cursos</p>
             </FooterItem>

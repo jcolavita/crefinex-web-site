@@ -30,8 +30,10 @@ export default function Cards({ children, ...props }) {
           </div>
         </div>
       </div>
-      <div className="md:px-[20px] px-[10px] md:pt-[70px] pt-[70px] text-center text-base">
-        <p className="  text-lg pb-[10px]">{props.title}</p>
+      <div className="md:px-[15px] px-[10px] md:pt-[70px] pt-[70px] text-center text-base">
+        <h6 className=" md:text-xl text-lg pb-[10px] font-semibold">
+          {props.title}
+        </h6>
         <p className="text-sm md:text-base">{props.text}</p>
       </div>
     </div>

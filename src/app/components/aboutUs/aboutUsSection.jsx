@@ -6,6 +6,7 @@ import Testimonials from "./testimonials/testimonial";
 import Calculator from "../../../../public/images/svg/calculator.svg";
 import Global from "../../../../public/images/svg/global.svg";
 import Mind from "../../../../public/images/svg/mind.svg";
+import Pilars from "./pilars/pilarsSection";
 
 function AboutUs() {
   return (
@@ -17,7 +18,7 @@ function AboutUs() {
         <h2 className=" text-center text-BLUE-700  text-3xl md:text-5xl font-bold mb-[15px] md:mb-[30px]">
           ¿Quienes Somos?
         </h2>
-        <h3 className="text-xl md:text-3xl font-medium text-BLUE-700 text-center mb-[15px] md:mb-[30px]">
+        <h3 className="text-2xl md:text-4xl font-medium text-BLUE-700 text-center mb-[15px] md:mb-[30px]">
           Comprometidos con la construcción de un futuro mejor
         </h3>
         <div className="w-full flex justify-center mb-[15px] md:mb-[30px]">
@@ -27,7 +28,7 @@ function AboutUs() {
             className=" w-[1160px] aspect-video rounded-3xl"
           />
         </div>
-        <p className="text-center text-base md:text-lg md:pb-[60px] pb-[30px] text-BLUE-700">
+        <p className="text-center text-sm md:text-base md:pb-[60px] pb-[30px] text-BLUE-700">
           En Crefinex creemos en la educación financiera como un pilar
           fundamental para el desarrollo personal y profesional, con el objetivo
           de Empoderar a los jovenes con los conocimientos necesarios para
@@ -38,17 +39,15 @@ function AboutUs() {
             <Cards
               bgColor=" bg-PURPLE-400"
               circleOutline="outline-PURPLE-400"
-              title="Aprender Divirtiendose"
-              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante"
+              title="Empoderando  lideres"
+              text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
               icon={Global}
             ></Cards>
             <Cards
               bgColor=" bg-PURPLE-400"
               circleOutline="outline-PURPLE-400"
-              title="Aprender Divirtiendose"
-              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante"
+              title="Herramientas para el exito"
+              text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
               icon={Calculator}
             ></Cards>
             <Cards
@@ -62,6 +61,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <Pilars />
 
       <Testimonials />
       <div className="md:h-[130px] py-5 md:py-5 w-full md:flex-row flex flex-col-reverse justify-between md:px-[100px] px-[25px] bg-white items-center">

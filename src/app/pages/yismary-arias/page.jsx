@@ -47,7 +47,7 @@ function Page() {
         </div>
       </div>
       <div className=" text-BLUE-700 flex flex-col gap-y-5 md:gap-y-10">
-        <div className="flex flex-col md:gap-y-5 gap-y-2 items-center">
+        <div className="flex flex-col md:gap-y-5 gap-y-2 ">
           <h1 className="md:text-6xl text-4xl font-semibold md:text-left text-center">
             Yismary Arias
           </h1>
@@ -57,7 +57,7 @@ function Page() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:gap-y-5 gap-y-2 text-center ">
+        <div className="flex flex-col md:gap-y-5 gap-y-2 text-center md:text-left ">
           <p className="indent-5 text-sm md:text-base">
             Lidera la educación financiera de más de 1000 niños y jóvenes
             venezolanos, empoderaos con herramientas para gestionar sus

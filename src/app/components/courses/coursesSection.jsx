@@ -16,15 +16,15 @@ function Courses() {
   const nombresModulosUnicos = [...new Set(data.map((curso) => curso.module))];
 
   return (
-    <div className="md:px-[100px] px-[25px] mt-14">
+    <div className="lg:px-[100px] md:px-[50px] px-[25px] lg:mt-14 mt-7">
       <div className="flex w-full justify-between font-medium items-end">
         <button
           onClick={() => handleModuloChange("todos")}
           className={`
-            bg-slate-200 w-full rounded-t-xl h-[40px] hover:h-[55px] transition-all ease-in-out truncate
+            bg-slate-200 w-full rounded-t-xl h-[40px]  hover:h-[50px] font-semibold transition-all ease-in-out truncate
             ${
               selectedModulo === "todos"
-                ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[55px] text-white shadow-lg shadow-slate-500"
+                ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[50px] text-white shadow-lg shadow-slate-500"
                 : " bg-slate-200 text-BLUE-700"
             }
           `}
@@ -36,10 +36,10 @@ function Courses() {
             key={moduloUnico}
             onClick={() => handleModuloChange(moduloUnico)}
             className={`
-               w-full rounded-t-xl h-[40px] md:hover:h-[55px] transition-all ease-in-out text-sm md:text-base  
+               w-full rounded-t-xl h-[40px] lg:hover:h-[50px] transition-all ease-in-out text-sm md:text-base  
               ${
                 selectedModulo === moduloUnico
-                  ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[55px] text-white shadow-lg shadow-slate-500"
+                  ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[50px] font-semibold text-white shadow-lg shadow-slate-500"
                   : " bg-slate-200 text-BLUE-700 "
               }
             `}

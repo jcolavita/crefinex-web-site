@@ -5,9 +5,9 @@ import { MdOutlineClass } from "react-icons/md";
 
 function CoursesCard({ cursosFiltrados, modulo }) {
   return (
-    <div className="md:px-20 px-0 md:py-10 pt-10 flex flex-col  gap-9 border-x-2 border-b-2 rounded-b-3xl">
+    <div className="lg:px-20 md:px-10 px-0 md:py-10 pt-10 flex flex-col gap-6 lg:gap-6 border-x-2 border-b-2 rounded-b-3xl">
       <h3
-        className={` font-bold md:text-4xl text-2xl text-BLUE-700 text-center md:text-left ${
+        className={` font-bold lg:text-4xl md:text-3xl text-2xl text-BLUE-700 text-center md:text-left ${
           modulo === "todos" ? " hidden" : ""
         }`}
       >
@@ -20,14 +20,16 @@ function CoursesCard({ cursosFiltrados, modulo }) {
         >
           <div className="md:w-[270px] w-full md:h-full h-[200px] bg-black rounded-2xl"></div>
           <div className=" text-BLUE-700 text-left w-full flex flex-col gap-[15px]">
-            <h4 className=" md:text-3xl text-xl font-bold">{curso.title}</h4>
-            <p className=" md:text-base text-sm line-clamp-2">
+            <h4 className=" lg:text-3xl md:text-2xl text-xl font-bold">
+              {curso.title}
+            </h4>
+            <p className=" lg:text-base text-sm line-clamp-2">
               {curso.description}
             </p>
-            <div className=" flex md:w-[50%] justify-between md:text-base text-sm">
+            <div className=" flex md:w-[60%] justify-between md:text-base text-sm">
               <div className="flex items-center gap-[5px]">
                 <FaRegClock />
-                <p className="font-medium md:text-base text-sm">
+                <p className="font-medium lg:text-base text-sm">
                   {curso.hours}
                 </p>
               </div>

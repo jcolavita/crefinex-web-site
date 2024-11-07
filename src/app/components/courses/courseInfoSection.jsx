@@ -18,15 +18,15 @@ function CourseInfo({ ...props }) {
         />
         <div className="bg-gradient-to-br   from-PURPLE-700 to-white/0 w-[100%]  h-[100%] absolute  z-10 "></div>
         <div className="flex ">
-          <div className="md:w-[60%] pt-20 pb-10 md:pt-32 z-30 relative  md:px-[100px] px-[25px]">
-            <h1 className=" font-bold text-white  md:text-6xl text-4xl md:text-left text-center md:mb-5 mb-2 ">
+          <div className="md:w-[60%] w-full pt-20 md:pb-10 pb-7 md:pt-32 z-30 relative  lg:px-[100px] md:px-[50px] px-[25px] flex flex-col items-center md:items-start">
+            <h1 className=" font-bold text-white  lg:text-6xl md:text-5xl text-4xl md:text-left text-center md:mb-5 mb-2 ">
               {props.title}
             </h1>
-            <div className=" flex md:w-[50%] w-full md:justify-between justify-center gap-x-4  md:mb-3 mb-3">
-              <p className="md:text-xl text-base font-semibold">
+            <div className=" flex md:w-[65%] w-full md:justify-between justify-center gap-x-4  md:mb-3 mb-3">
+              <p className="lg:text-xl text-base font-semibold">
                 {props.hours}
               </p>
-              <p className="md:text-xl text-base font-semibold">
+              <p className="lg:text-xl text-base font-semibold">
                 {props.classes}
               </p>
             </div>
@@ -34,12 +34,12 @@ function CourseInfo({ ...props }) {
               {props.price} $
             </h2>
             <a href={props.buyLink}>
-              <button className=" md:hover:scale-105 w-full md:w-auto transition-all ease-in-out md:text-2xl text-lg font-semibold bg-amber-400 px-6 md:py-3 py-2 rounded-xl text-black">
+              <button className=" lg:hover:scale-105 w-full md:w-auto transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 md:py-3 py-2 rounded-xl text-black">
                 Comprar Ahora
               </button>
             </a>
           </div>
-          <div className="w-[40%]  z-30 relative overflow-hidden">
+          <div className="w-[40%]  z-30 relative overflow-hidden hidden md:block">
             <Image
               src={props.yismary}
               alt="Yismary arias curso para leer"
@@ -50,25 +50,25 @@ function CourseInfo({ ...props }) {
           </div>
         </div>
       </div>
-      <div className="px-[25px]  md:px-[100px] md:py-[50px] py-[25px] w-full text-BLUE-700">
-        <p className=" w-full md:text-lg text-sm text-center mb-4">
+      <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
+        <p className=" w-full lg:text-base text-sm text-center mb-4">
           {props.description}
         </p>
-        <h3 className="text-center w-full font-bold md:text-3xl text-xl">
+        <h3 className="text-center w-full font-bold lg:text-3xl md:text-2xl text-xl">
           Si identificas en tu hijo alguna de estas situaciones, este curso es
-          el:
+          para el:
         </h3>
-        <div className=" w-full  md:my-[50px] my-[10px]  flex md:flex-row flex-col gap-5">
+        <div className=" w-full h-auto lg:my-[50px] my-[30px] flex lg:flex-row justify-center flex-col items-center gap-5">
           <Image
             src={props.cover}
             width={1000}
             height={667}
             alt="kid reading"
-            className="md:w-[40%] w-full rounded-md"
+            className="lg:w-[35%] w-full rounded-md"
           />
-          <div className="w-auto md:text-lg text-sm">
+          <div className="w-auto md:text-base text-sm  ">
             {props.target.map((item, index) => (
-              <li className="pl-10 -indent-7" key={index}>
+              <li className="pl-10 -indent-5 md:-inset-7" key={index}>
                 {item}
               </li>
             ))}
@@ -76,7 +76,7 @@ function CourseInfo({ ...props }) {
         </div>
         <div className="w-full flex justify-center mb-2">
           <a href={props.buyLink} target="blank">
-            <button className="w-full md:w-auto md:hover:scale-105 transition-all ease-in-out md:text-2xl font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
+            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
               Comprar Ahora
             </button>
           </a>

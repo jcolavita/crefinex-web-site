@@ -54,4 +54,12 @@ body {
 
     transition: max-height 1500ms;
   }
+  img {
+    margin: auto;
+  }
+
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+  }
 }

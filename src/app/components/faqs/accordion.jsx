@@ -20,17 +20,17 @@ function Accordionlist() {
         <>
           {header}
           <Image
-            className="ml-auto chevronAnimation "
+            className=" ml-auto mr-0 place-self-end  "
             src={chevronDown}
             alt="Chevron Down"
           />
         </>
       }
-      className="  mb-[8px]"
+      className="  mb-[8px] "
       buttonProps={{
         className: ({ isEnter }) =>
           `cursor-pointer flex items-center w-full font-semibold  text-BLUE-700 py-2 px-4 s  ${
-            isEnter ? "bg-PURPLE-100" : "bg-white md:hover:bg-PURPLE-100"
+            isEnter ? "bg-PURPLE-100" : "bg-white lg:hover:bg-PURPLE-100"
           }`,
       }}
       contentProps={{ className: "itemContent text-BLUE-700 bg-white" }}
@@ -39,7 +39,7 @@ function Accordionlist() {
   );
 
   return (
-    <div className=" md:px-14 px-0 ">
+    <div className=" md:px-14 px-0  text-sm lg:text-base">
       {data && (
         <Accordion transition transitionTimeout={250} className="  ">
           {data.map((item) => (

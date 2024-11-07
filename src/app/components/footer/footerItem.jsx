@@ -5,13 +5,13 @@ function FooterItem({ children, ...props }) {
     <li
       className={
         props.className +
-        " mb-[35px] md:hover:scale-110 transition-all ease-in-out duration-200 "
+        " mb-[35px] lg:hover:scale-110 transition-all ease-in-out duration-200 "
       }
     >
       <a
         href={props.link}
         target={props.target}
-        className="flex text-BLUE-700 items-center md:text-base text-sm font-bold"
+        className="flex text-BLUE-700 items-center font-bold"
       >
         {props.leftIcon} {children}
       </a>

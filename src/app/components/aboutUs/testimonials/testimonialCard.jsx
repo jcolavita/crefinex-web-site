@@ -3,7 +3,7 @@ import React from "react";
 
 function TestimonialCard({ ...props }) {
   return (
-    <div className="md:w-[250px] md:h-[270px] w-[250px] h-[240px] rounded-3xl bg-white relative">
+    <div className=" lg:h-[270px] max-w-[250px] h-[240px] rounded-3xl bg-white relative">
       <div className="h-[50%]">
         <div
           className={
@@ -11,7 +11,7 @@ function TestimonialCard({ ...props }) {
             " w-[90%] h-[40%]  absolute rounded-t-2xl top-3 left-0 right-0 m-auto overflow-hidden"
           }
         >
-          <p className="text-black md:text-xl font-medium text-base absolute top-10 left-2 w-5 ">
+          <p className="text-black lg:text-xl font-medium text-base absolute top-10 left-2 w-5 ">
             {props.name}
           </p>
           <Image
@@ -23,7 +23,7 @@ function TestimonialCard({ ...props }) {
       </div>
 
       <div className="flex h-[50%] items-center">
-        <p className="w-auto px-[6%] text-BLUE-700 md:text-base text-sm ">
+        <p className="w-auto px-[6%] text-BLUE-700 lg:text-base text-sm ">
           {props.testimonials}
         </p>
       </div>

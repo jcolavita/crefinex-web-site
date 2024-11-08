@@ -39,7 +39,7 @@ function CourseInfo({ ...props }) {
               </button>
             </a>
           </div>
-          <div className="w-[40%]  z-30 relative overflow-hidden hidden md:block">
+          {/* <div className="w-[40%]  z-30 relative overflow-hidden hidden md:block">
             <Image
               src={props.yismary}
               alt="Yismary arias curso para leer"
@@ -47,7 +47,7 @@ function CourseInfo({ ...props }) {
               width={250}
               className=" absolute left-5 m-auto"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
@@ -59,14 +59,16 @@ function CourseInfo({ ...props }) {
           para el:
         </h3>
         <div className=" w-full h-auto lg:my-[50px] my-[30px] flex lg:flex-row justify-center flex-col items-center gap-5">
-          <Image
-            src={props.cover}
-            width={1000}
-            height={667}
-            alt="kid reading"
-            className="lg:w-[35%] w-full rounded-md"
-          />
-          <div className="w-auto md:text-base text-sm  ">
+          <div className="md:w-[50%] w-full">
+            <Image
+              src={props.cover}
+              width={1000}
+              height={667}
+              alt="kid reading"
+              className=" w-full rounded-md"
+            />
+          </div>
+          <div className="md:w-[50%] md:text-base text-sm  ">
             {props.target.map((item, index) => (
               <li className="pl-10 -indent-5 md:-inset-7" key={index}>
                 {item}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaRegClock } from "react-icons/fa6";
@@ -18,7 +19,14 @@ function CoursesCard({ cursosFiltrados, modulo }) {
           key={curso.id}
           className=" border-2  rounded-3xl  w-full md:h-[205px] flex md:flex-row flex-col items-center px-[20px] py-[20px] md:gap-[40px] gap-5 shadow-lg shadow-slate-600"
         >
-          <div className="md:w-[270px] w-full md:h-full h-[200px] bg-black rounded-2xl"></div>
+          <div className="md:w-[270px] w-full md:h-full h-[200px] bg-black overflow-hidden rounded-2xl">
+            <Image
+              src={curso.cover}
+              alt="miniatura del curso"
+              width={500}
+              height={500}
+            />
+          </div>
           <div className=" text-BLUE-700 text-left w-full flex flex-col gap-[15px]">
             <h4 className=" lg:text-3xl md:text-2xl text-xl font-bold">
               {curso.title}

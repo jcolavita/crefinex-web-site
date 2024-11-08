@@ -16,7 +16,7 @@ function Courses() {
   const nombresModulosUnicos = [...new Set(data.map((curso) => curso.module))];
 
   return (
-    <div className="lg:px-[100px] md:px-[50px] px-[25px] lg:mt-14 mt-7">
+    <div className="lg:px-[100px] md:px-[50px] px-[25px] pb-[25px] lg:mt-14 mt-7">
       <div className="flex w-full justify-between font-medium items-end">
         <button
           onClick={() => handleModuloChange("todos")}

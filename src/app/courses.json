@@ -5,8 +5,8 @@
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
-    "module": "1",
-    "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "module": "Crecimiento Personal",
+    "description": "¿Quieres que tus hijos se conviertan en lectores ágiles y apasionados? Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
     "moreInfo": ["cccc", "bbb", "aaa"],
     "target": [
       "Edad 7 a 15 años.",
@@ -19,41 +19,43 @@
       "Problemas de atención y concentración.",
       "Dificultad para escuchar y escribir a la vez."
     ],
-    "background": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
+
+    "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Crecimiento%20Personal%20Background.jpeg?updatedAt=1731071542516",
     "buyLink": "https://www.google.com",
     "yismary": "https://ik.imagekit.io/crefinex/Course1/yismary.png?updatedAt=1730834106150",
-    "cover": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739"
+    "cover": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Crecimiento%20Personal%20Background.jpeg?updatedAt=1731071542516"
   },
   {
     "id": "2",
-    "title": "aprender a leer 2",
+    "title": "Hábitos saludables",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
-    "module": "1",
-    "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "module": "Crecimiento Personal",
+    "description": "Empodera a los jóvenes a construir un futuro más saludable y a través del desarrollo de habilidades claves como la independencia, la toma de decisiones y el fortalecimiento de las relaciones sociales.",
     "moreInfo": ["cccc", "bbb", "aaa"],
     "target": [
-      "Edad 7 a 15 años.",
-      "Problemas para identificar las letras.",
-      "Dificultad para dividir las palabras en forma individuales.",
-      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
-      "Le cuesta responder preguntas sobre el texto leído.",
-      "Dificultad para sacar conclusiones sobre el texto leído.",
-      "Falta de Interés por la lectura.",
-      "Problemas de atención y concentración.",
-      "Dificultad para escuchar y escribir a la vez."
+      "Niños Jóvenes entre 10 a 17 años.",
+      "Falta de energía, cansancio frecuente.",
+      "Cambios de humor frecuentes.",
+      "Dificultad para concentrarse.",
+      "Problemas para dormir.",
+      "Baja autoestima.",
+      "Problemas digestivos.",
+      "Consumo excesivo de alimentos procesados y azucares.",
+      "Higiene personal descuidada.",
+      "Problemas de peso."
     ],
-    "imagen": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
+    "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com"
   },
   {
     "id": "3",
-    "title": "aprender a leer 3",
+    "title": "Programa tu mente para el éxito",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
-    "module": "lectura",
+    "module": "Crecimiento Personal",
     "description": "Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
     "moreInfo": [
       "Desarrollo cognitivo.",
@@ -68,17 +70,17 @@
       "Mejor desempeño académico."
     ],
     "target": [
-      "Edad 7 a 15 años.",
-      "Problemas para identificar las letras.",
-      "Dificultad para dividir las palabras en forma individuales.",
-      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
-      "Le cuesta responder preguntas sobre el texto leído.",
-      "Dificultad para sacar conclusiones sobre el texto leído.",
-      "Falta de Interés por la lectura.",
-      "Problemas de atención y concentración.",
-      "Dificultad para escuchar y escribir a la vez."
+      "Niños Jóvenes entre 10 a 17 años.",
+      "Falta de metas claras",
+      "Cambios de humor frecuentes.",
+      "Miedo al Fracaso",
+      "Dificultad para concentrarse.",
+      "Baja autoestima.",
+      "Tendencia a procastinar",
+      "Pensamientos negativos"
     ],
-    "imagen": "https://ik.imagekit.io/crefinex/default-image.jpg?updatedAt=1730724688739",
-    "buyLink": "www.google.com"
+    "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072680809",
+    "buyLink": "www.google.com",
+    "cover": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072680809"
   }
 ]

@@ -27,6 +27,7 @@ export default async function Page({ params }) {
     background,
     yismary,
     cover,
+    puv,
   } = course;
 
   return (
@@ -43,6 +44,7 @@ export default async function Page({ params }) {
         background={background}
         yismary={yismary}
         cover={cover}
+        puv={puv}
       />
     </div>
   );

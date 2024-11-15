@@ -17,23 +17,26 @@ function CoursesCard({ cursosFiltrados, modulo }) {
       {cursosFiltrados.map((curso) => (
         <div
           key={curso.id}
-          className=" border-2  rounded-3xl  w-full md:h-[205px] flex md:flex-row flex-col items-center px-[20px] py-[20px] md:gap-[40px] gap-5 shadow-lg shadow-slate-600"
+          className=" border-2  rounded-3xl w-full  flex lg:flex-row flex-col items-center px-[20px] py-[20px] md:gap-[30px] gap-5 shadow-lg shadow-slate-600"
         >
-          <div className="md:w-[270px] w-full md:h-full h-[200px] bg-black overflow-hidden rounded-2xl">
+          <div className="aspect-video lg:w-[500px] outline outline-4  outline-BLUE-700 overflow-hidden rounded-2xl">
             <Image
               src={curso.cover}
               alt="miniatura del curso"
-              width={500}
-              height={500}
+              width={1920}
+              height={1080}
+              priority={true}
             />
           </div>
           <div className=" text-BLUE-700 text-left w-full flex flex-col gap-[15px]">
             <h4 className=" lg:text-3xl md:text-2xl text-xl font-bold">
               {curso.title}
             </h4>
-            <p className=" lg:text-base text-sm line-clamp-2">
-              {curso.description}
-            </p>
+            <p
+              className=" lg:text-base text-sm line-clamp-2"
+              dangerouslySetInnerHTML={{ __html: curso.description }}
+            />
+
             <div className=" flex md:w-[60%] justify-between md:text-base text-sm">
               <div className="flex items-center gap-[5px]">
                 <FaRegClock />
@@ -48,12 +51,13 @@ function CoursesCard({ cursosFiltrados, modulo }) {
                 </p>
               </div>
             </div>
-            <div className=" flex w-full justify-end">
+            <div className=" flex w-full justify-end ${curso.cardColor}">
               <Link
                 href={`/pages/courses/${curso.id}`}
                 className={`text-center md:w-auto w-full bg-gradient-to-br from-PURPLE-400 to-BLUE-700 px-10 text-white font-semibold 
-                rounded-full py-[2px] hover:scale-105 transition-all ease-in-out`}
+                rounded-full py-[4px] outline outline-2 outline-BLUE-700 hover:scale-105 transition-all ease-in-out`}
               >
+                {curso.card}
                 Ver Mas
               </Link>
             </div>

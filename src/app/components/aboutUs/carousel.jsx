@@ -17,6 +17,7 @@ function Carousel({ children, slidesToShow, dots, arrows, autoplay }) {
     autoplaySpeed: 5000,
     pauseOnHover: true,
     arrows: arrows,
+    draggable: false,
 
     responsive: [
       {

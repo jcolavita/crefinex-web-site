@@ -34,7 +34,7 @@ function Footer() {
               </FooterItem>
               <FooterItem className="cursor-pointer" link="/#about-us">
                 <FaCircleInfo color={"#14093E"} size={24} />
-                <p className="pl-[10px]">¿Quienes Somos?</p>
+                <p className="pl-[10px]">¿Quiénes Somos?</p>
               </FooterItem>
               <FooterItem className="cursor-pointer" link="/#faqs">
                 <FaQuestionCircle color={"#14093E"} size={24} />

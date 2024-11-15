@@ -3,12 +3,11 @@ import React from "react";
 
 function TestimonialCard({ ...props }) {
   return (
-    <div className=" lg:h-[270px] max-w-[250px] h-[240px] rounded-3xl bg-white relative">
+    <div className=" lg:h-[270px]  lg:mx-8 md:mx-10 mx-5 h-[240px] rounded-3xl bg-white relative">
       <div className="h-[50%]">
         <div
           className={
-            props.className +
-            " w-[90%] h-[40%]  absolute rounded-t-2xl top-3 left-0 right-0 m-auto overflow-hidden"
+            " bg-BLUE-200 w-[90%] h-[40%]  absolute rounded-t-2xl top-3 left-0 right-0 m-auto overflow-hidden"
           }
         >
           <p className="text-black lg:text-xl font-medium text-base absolute top-10 left-2 w-5 ">
@@ -18,6 +17,8 @@ function TestimonialCard({ ...props }) {
             src={props.imagen}
             alt="persona del testimonio"
             className=" w-32 absolute right-0"
+            width={1000}
+            height={1500}
           />
         </div>
       </div>

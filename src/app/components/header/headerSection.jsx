@@ -1,8 +1,18 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import BlurryItem from "../decorations/blurryItem";
 import Link from "next/link";
+import Carousel from "../aboutUs/carousel";
+import Image from "next/image";
+import headerCarouselJson from "@/app/json/headerCarousel";
 
 export default function Header() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    setData(headerCarouselJson);
+  }, []);
+
   return (
     <header
       id=""
@@ -24,7 +34,7 @@ export default function Header() {
               className=" text-white text-lg font-medium"
               href={"/pages/courses"}
             >
-              No te pierdas Nuestros cursos
+              Adquiere nuestros cursos
             </Link>
           </button>
         </div>
@@ -38,9 +48,29 @@ export default function Header() {
           className={`lg:w-[320px] lg:h-[350px] w-[280px] h-[300px] lg:animate-blob rounded-3xl absolute right-0 left-0 md:top-0 md:bottom-0 top-5 m-auto
             bg-gradient-to-br from-PURPLE-400 to-BLUE-700 shadow-slate-800 shadow-md`}
         >
-          <div className="bg-white text-BLUE-700 w-[80%]  h-[50px] rounded-xl  flex items-center absolute -bottom-5 right-0 left-0 m-auto shadow-md shadow-slate-800">
-            <p className="w-full lg:text-3xl text-2xl text-center">
-              Yismary Arias
+          <div className="w-full absolute bottom-0 ">
+            {data && (
+              <Carousel
+                slidesToShow={1}
+                dots={true}
+                arrows={false}
+                autoplay={true}
+              >
+                {data.map((item) => (
+                  <Image
+                    src={item.image}
+                    key={item.id}
+                    width={1000}
+                    height={1500}
+                    alt="Yismary Arias junto con esudiante de la acedemia"
+                  />
+                ))}
+              </Carousel>
+            )}
+          </div>
+          <div className="bg-white  text-BLUE-700 w-[80%]  h-[50px] rounded-xl  flex items-center absolute -bottom-5 right-0 left-0 m-auto shadow-md shadow-slate-800">
+            <p className="w-full lg:text-2xl text-xl text-center z-50 font-bold">
+              ¡SOY EXITOSO!
             </p>
           </div>
         </div>

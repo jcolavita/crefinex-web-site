@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué temas se abordan en los cursos de Crefinex?",
+    "answer": "Nuestros cursos cubren una amplia gama de temas, desde los conceptos básicos del dinero hasta temas más avanzados como la inversión y el emprendimiento."
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la duración de los cursos?",
+    "answer": "La duración de nuestros cursos varía según el programa. Ofrecemos cursos cortos y programas intensivos para diferentes niveles de conocimiento."
+  },
+  {
+    "id": 3,
+    "question": "¿Como sé que esto funcionara para mi hijo?",
+    "answer": "Si eres un padre preocupado por el futuro financiero de tu familia y en la escuela tradicional tus hijos no reciben educación financiera esto es para ellos. "
+  },
+  {
+    "id": 4,
+    "question": "¿Para que edades funciona?",
+    "answer": "Funciona para edades a partir de los 10 años de edad hasta los 17 años de edad."
+  },
+  {
+    "id": 5,
+    "question": "¿Qué  pasa si necesito ayuda?",
+    "answer": "Puedes contactar con el equipo de soporte y te responderán en la brevedad posible."
+  },
+  {
+    "id": 6,
+    "question": "¿Mi hijo debe tener saber sobre números para tomar el curso?",
+    "answer": "Para este curso no se requiere bases matemáticas."
+  },
+  {
+    "id": 7,
+    "question": "¿Qué  pasa si mi hijo está en cero y no sabe nada de finanzas?",
+    "answer": "Nuestro programa de enseñanza está diseñado para que jóvenes sin ningún conocimiento en finanzas puedan ir paso a paso desde cero."
+  }
+]

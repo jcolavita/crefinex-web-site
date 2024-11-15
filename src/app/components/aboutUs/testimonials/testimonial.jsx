@@ -1,13 +1,18 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Carousel from "../carousel";
 import Quotation from "../../../../../public/images/svg/quotation.svg";
 import TestimonialCard from "./testimonialCard";
-import Student2 from "../../../../../public/images/webp/student2.webp";
-import Student1 from "../../../../../public/images/webp/student1.webp";
-import Representative1 from "../../../../../public/images/webp/representative1.webp";
+import testimonialsJSON from "@/app/json/testimonials.json";
 
 export default function Testimonial() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    setData(testimonialsJSON);
+  }, []);
+
   return (
     <div className="  w-full md:h-[600x] h-auto bg-gradient-to-br from-PURPLE-400 to-BLUE-700   py-[30px]">
       <div className="md:flex md:px-[50px] lg:px-[100px] px-[25px]">
@@ -20,32 +25,23 @@ export default function Testimonial() {
           </h4>
         </div>
         <div className="md:w-[50%] mx-[25px] md:mx-0  ">
-          <Carousel slidesToShow={2} dots={true} arrows={true} autoplay={true}>
-            <TestimonialCard
-              className="bg-BLUE-200 contentContainer"
-              name="Ivian duran "
-              testimonials=" Gracias en a los conocimientos que obtuve Crefinex pude desarrollar mi idea de emprendimiento."
-              imagen={Student1}
-            />
-            <TestimonialCard
-              className="bg-BLUE-200 "
-              name="Mayra Aguilaar"
-              imagen={Representative1}
-              testimonials="Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas."
-            />
-            <TestimonialCard
-              className="bg-BLUE-200 "
-              imagen={Student2}
-              name="Guillermo Puente"
-              testimonials=" He avanzado mucho, leo y hablo mejor y he aprendido mucho sobre finanzas, como gastos e inversiones."
-            />
-            <TestimonialCard
-              className="bg-BLUE-200 "
-              name="Mayra Aguilaar"
-              imagen={Representative1}
-              testimonials="Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas."
-            />
-          </Carousel>
+          {data && (
+            <Carousel
+              slidesToShow={2}
+              dots={true}
+              arrows={true}
+              autoplay={true}
+            >
+              {data.map((item) => (
+                <TestimonialCard
+                  name={item.name}
+                  testimonials={item.testimonial}
+                  imagen={item.image}
+                  key={item.id}
+                />
+              ))}
+            </Carousel>
+          )}
         </div>
       </div>
       <div className="w-full h-[10px] mt-[30px] bg-white" />

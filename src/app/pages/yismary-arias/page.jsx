@@ -3,15 +3,21 @@ import Facebook from "../../../../public/images/webp/facebook.webp";
 import Tiktok from "../../../../public/images/webp/tiktok.webp";
 import Instagram from "../../../../public/images/webp/instagram.webp";
 import Image from "next/image";
+import Yismary from "../../../../public/images/webp/Yismary.webp";
 
 function Page() {
   return (
-    <section className="bg-white md:flex lg:gap-x-14 gap-x-5 pb-[50px] pt-[100px] w-full lg:px-[100px] md:px-[50px] px-[25px] font-lexend">
+    <section className="bg-white md:flex lg:gap-x-14 gap-x-5 pb-[50px] pt-[120px] w-full lg:px-[100px] md:px-[50px] px-[25px] font-lexend">
       <div className=" flex  justify-center pb-[50px] md:pb-0">
         <div
           className={`w-[320px] h-[350px] relative rounded-3xl  
             bg-gradient-to-br from-PURPLE-400 to-BLUE-700 shadow-slate-800 shadow-md`}
         >
+          <Image
+            src={Yismary}
+            alt="Yismary Arias"
+            className="absolute bottom-0 left-0 right-0 m-auto h-[500px] w-auto"
+          />
           <div className="bg-white shadow-md shadow-slate-600 w-[280px] h-[50px] rounded-xl gap-x-10  flex items-center justify-center absolute -bottom-5 right-0 left-0 m-auto ">
             <a
               href="https://www.facebook.com/crefinex?mibextid=LQQJ4d"

@@ -17,7 +17,7 @@ function AboutUs() {
     >
       <div className="px-[25px] md:px-[50px] lg:px-[100px] pb-5">
         <h2 className=" text-center text-BLUE-700  text-3xl lg:text-5xl md:text-4xl font-bold mb-[15px] md:mb-[30px]">
-          ¿Quienes Somos?
+          ¿Quiénes Somos?
         </h2>
         <h3 className="text-2xl md:text-3xl lg:text-4xl font-medium text-BLUE-700 text-center mb-[15px] md:mb-[30px]">
           Comprometidos con la construcción de un futuro mejor
@@ -32,34 +32,41 @@ function AboutUs() {
         <p className="text-center text-sm lg:text-base lg:pb-[60px] pb-[30px] text-BLUE-700">
           En Crefinex creemos en la educación financiera como un pilar
           fundamental para el desarrollo personal y profesional, con el objetivo
-          de Empoderar a los jovenes con los conocimientos necesarios para
+          de Empoderar a los jóvenes con los conocimientos necesarios para
           desenvolverse en el mundo actual.
         </p>
 
-        <Carousel slidesToShow={3} dots={false} arrows={false} autoplay={false}>
-          <Cards
-            bgColor=" bg-PURPLE-400"
-            circleOutline="outline-PURPLE-400"
-            title="Empoderando  lideres"
-            text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
-            icon={Global}
-          ></Cards>
-          <Cards
-            bgColor=" bg-PURPLE-400"
-            circleOutline="outline-PURPLE-400"
-            title="Herramientas para el exito"
-            text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
-            icon={Calculator}
-          ></Cards>
-          <Cards
-            bgColor=" bg-PURPLE-400"
-            circleOutline="outline-PURPLE-400"
-            title="Aprender Divirtiendose"
-            text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
-                financieros saludables para un futuro brillante"
-            icon={Mind}
-          ></Cards>
-        </Carousel>
+        <div className="">
+          <Carousel
+            slidesToShow={3}
+            dots={false}
+            arrows={false}
+            autoplay={false}
+          >
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Empoderando  líderes"
+              text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
+              icon={Global}
+            ></Cards>
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Herramientas para el éxito"
+              text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
+              icon={Calculator}
+            ></Cards>
+            <Cards
+              bgColor=" bg-PURPLE-400"
+              circleOutline="outline-PURPLE-400"
+              title="Aprender Divirtiéndose"
+              text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
+                      financieros saludables para un futuro brillante"
+              icon={Mind}
+            ></Cards>
+          </Carousel>
+        </div>
       </div>
       <Pilars />
 
@@ -79,7 +86,7 @@ function AboutUs() {
             +500
           </p>
           <p className=" text-BLUE-700 text-center lg:text-base text-sm">
-            Futuros lideres preparados
+            Futuros líderes reparados
           </p>
         </div>
         <div className="md:w-1 w-full h-1 md:h-[75%] rounded-full bg-gradient-to-r from-white from-10% via-BLUE-700 via-50% to-white to-90% my-5" />

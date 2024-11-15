@@ -3,7 +3,7 @@ import React from "react";
 import chevronDown from "../../../../public/images/svg/chevron.svg";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import Image from "next/image";
-import faqsJSON from "@/app/faqs.json";
+import faqsJSON from "@/app/json/faqs.json";
 import { useEffect, useState } from "react";
 
 function Accordionlist() {
@@ -20,7 +20,7 @@ function Accordionlist() {
         <>
           {header}
           <Image
-            className=" ml-auto mr-0 place-self-end  "
+            className={`ml-auto mr-0 place-self-end chevron`}
             src={chevronDown}
             alt="Chevron Down"
           />
@@ -29,8 +29,8 @@ function Accordionlist() {
       className="  mb-[8px] "
       buttonProps={{
         className: ({ isEnter }) =>
-          `cursor-pointer flex items-center w-full font-semibold  text-BLUE-700 py-2 px-4 s  ${
-            isEnter ? "bg-PURPLE-100" : "bg-white lg:hover:bg-PURPLE-100"
+          `bg-white lg:hover:bg-PURPLE-100 cursor-pointer flex items-center  w-full font-semibold text-BLUE-700 py-2 px-4 transition-all ease-in-out  ${
+            isEnter && "bg-PURPLE-100 itemBtnExpanded  "
           }`,
       }}
       contentProps={{ className: "itemContent text-BLUE-700 bg-white" }}

@@ -62,4 +62,7 @@ body {
     display: grid;
     place-items: center;
   }
+  .itemBtnExpanded .chevron {
+    transform: rotate(180deg);
+  }
 }

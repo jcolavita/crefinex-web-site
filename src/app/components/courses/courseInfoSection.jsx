@@ -16,13 +16,18 @@ function CourseInfo({ ...props }) {
           alt="Background"
           className="object-cover  absolute z-0"
         />
-        <div className="bg-gradient-to-br   from-PURPLE-700 to-white/0 w-[100%]  h-[100%] absolute  z-10 "></div>
+        <div className="bg-gradient-to-br   from-PURPLE-700/80 from-[45%] to-white/0 w-[100%]  h-[100%] absolute  z-10 "></div>
         <div className="flex ">
-          <div className="md:w-[60%] w-full pt-20 md:pb-10 pb-7 md:pt-32 z-30 relative  lg:px-[100px] md:px-[50px] px-[25px] flex flex-col items-center md:items-start">
-            <h1 className=" font-bold text-white  lg:text-6xl md:text-5xl text-4xl md:text-left text-center md:mb-5 mb-2 ">
-              {props.title}
-            </h1>
-            <div className=" flex md:w-[65%] w-full md:justify-between justify-center gap-x-4  md:mb-3 mb-3">
+          <div className=" w-full pt-20 md:pb-10 pb-7 md:pt-32 z-30 relative  lg:px-[100px] md:px-[50px] px-[25px] flex flex-col items-center md:items-start">
+            <h1
+              dangerouslySetInnerHTML={{ __html: props.title }}
+              className=" md:w-[55%] font-bold text-white  lg:text-6xl md:text-5xl text-4xl md:text-left text-center md:mb-5 mb-2 "
+            />
+            <p className="lg:w-[60%] text-white font-semibold lg:text-xl text-base md:text-left text-center md:mb-5 mb-2">
+              {props.puv}
+            </p>
+
+            <div className=" flex md:w-[40%] w-full md:justify-between justify-center gap-x-4  md:mb-3 mb-3">
               <p className="lg:text-xl text-base font-semibold">
                 {props.hours}
               </p>
@@ -51,27 +56,29 @@ function CourseInfo({ ...props }) {
         </div>
       </div>
       <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
-        <p className=" w-full lg:text-base text-sm text-center mb-4">
-          {props.description}
-        </p>
+        <p
+          className=" w-full lg:text-base text-sm text-center mb-4"
+          dangerouslySetInnerHTML={{ __html: props.description }}
+        />
         <h3 className="text-center w-full font-bold lg:text-3xl md:text-2xl text-xl">
           Si identificas en tu hijo alguna de estas situaciones, este curso es
-          para el:
+          para él:
         </h3>
         <div className=" w-full h-auto lg:my-[50px] my-[30px] flex lg:flex-row justify-center flex-col items-center gap-5">
-          <div className="md:w-[50%] w-full">
+          <div className="md:w-[50%] outline outline-4  outline-BLUE-700 rounded-md w-full">
             <Image
               src={props.cover}
-              width={1000}
-              height={667}
+              width={1920}
+              height={1080}
               alt="kid reading"
-              className=" w-full rounded-md"
+              className=" w-full "
+              priority={true}
             />
           </div>
           <div className="md:w-[50%] md:text-base text-sm  ">
             {props.target.map((item, index) => (
               <li className="pl-10 -indent-5 md:-inset-7" key={index}>
-                {item}
+                <span dangerouslySetInnerHTML={{ __html: item }} />
               </li>
             ))}
           </div>

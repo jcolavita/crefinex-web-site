@@ -35,7 +35,7 @@ export default function NavBar() {
       >
         <NavBarItem link="/#">Inicio</NavBarItem>
         <NavBarItem link="/pages/courses">Cursos</NavBarItem>
-        <NavBarItem link="/#about-us">¿Quienes Somos?</NavBarItem>
+        <NavBarItem link="/#about-us">¿Quiénes Somos?</NavBarItem>
         <NavBarItem link="/#faqs">Preguntas frecuentes</NavBarItem>
       </ul>
     </nav>

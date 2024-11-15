@@ -1,7 +1,7 @@
 import React from "react";
 import StudyBg from "../../../../public/images/webp/study-bg.webp";
 import Image from "next/image";
-import RoadMap from "../../../../public/images/svg/road-map.svg";
+import RoadMap from "../../../../public/images/webp/Road-Map.webp";
 import Courses from "../../components/courses/coursesSection";
 
 function Page() {
@@ -32,7 +32,9 @@ function Page() {
         <Image
           src={RoadMap}
           alt="road map crefinex"
-          className=" lg:h-[700px] w-[90%] h-auto aspect-square"
+          className=" w-[90%] lg:w-[60%] h-auto aspect-square -my-10"
+          width={1500}
+          height={1500}
         />
       </div>
       <Courses />

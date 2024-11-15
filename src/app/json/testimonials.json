@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Ivian duran",
+    "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-1.webp?updatedAt=1731682169973"
+  },
+  {
+    "id": "2",
+    "name": "Mayra Aguilar",
+    "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/Representante-2.webp?updatedAt=1731682122192"
+  },
+  {
+    "id": "3",
+    "name": "Guillermo Puente",
+    "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-2.webp?updatedAt=1731682169948"
+  },
+  {
+    "id": "4",
+    "name": "Rodolfo Puente",
+    "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/Representante-1.webp?updatedAt=1731682122270"
+  }
+]

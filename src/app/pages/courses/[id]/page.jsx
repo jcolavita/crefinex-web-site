@@ -1,5 +1,5 @@
 import React from "react";
-import data from "@/app/courses.json";
+import data from "@/app/json/courses.json";
 import CourseNotFound from "../../../components/courses/courseNotFound";
 import CourseInfo from "../../../components/courses/courseInfoSection";
 

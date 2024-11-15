@@ -2,9 +2,6 @@ import React from "react";
 import Image from "next/image";
 import StudyBg from "../../../../public/images/webp/study-bg.webp";
 
-import RoadMap from "../../../../public/images/svg/road-map.svg";
-import Courses from "../../components/courses/coursesSection";
-
 function Books() {
   return (
     <section>

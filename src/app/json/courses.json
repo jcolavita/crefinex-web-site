@@ -1,13 +1,13 @@
 [
   {
     "id": "1",
-    "puv": "La tortura de aprender a leer término, desbloquea el misterio y logra el éxito",
+    "puv": "Ahora aprender a leer será más emocionante, desbloquea el misterio y logra el objetivo.",
     "title": "El Código secreto de la lectura",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Crecimiento Personal",
-    "description": "<b>¿Quieres que tus hijos se conviertan en lectores ágiles y apasionados? </b> </br> Nuestro curso online ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
+    "description": "<b>¿Esperan ver convertidos a sus hijos en lectores ágiles y apasionados? </b> </br></br> Con nuestro curso online se ofrece un enfoque innovador y divertido para desarrollar la fluidez lectora en niños y jóvenes. A través de actividades interactivas, juegos y técnicas de lectura comprobadas, los estudiantes aprenderán a leer con mayor rapidez y comprensión, mejorando su rendimiento académico y abriendo un mundo de posibilidades. ¡Descubrirán el placer de sumergirse en historias y expandir sus conocimientos!",
     "moreInfo": [
       "Inicio para desarrollar disciplina.",
       "Desarrollo cognitivo.",
@@ -23,15 +23,15 @@
     ],
 
     "target": [
-      "Edad 7 a 15 años.",
-      "Problemas para identificar las letras.",
-      "Dificultad para dividir las palabras en forma individual.",
-      "Pausas con frecuencia, lectura lenta, omite o sustituye palabras por otras.",
-      "Le cuesta responder preguntas sobre el texto leído.",
-      "Dificultad para sacar conclusiones sobre el texto leído.",
-      "Falta de interés por la lectura.",
-      "Problemas de atención y concentración.",
-      "Dificultad para escuchar y escribir a la vez."
+      "Jóven entre los 7 y 15 años.",
+      "Dificultad para identificar las letras",
+      "Dificultad para dividir las palabras en silabas",
+      "Lectura con pausas consecutivas o sustitución de una palabra por otra",
+      "Falta de respuestas a preguntas sobre el texto leído",
+      "Factores que les dificultan sacar conclusiones de un texto leído",
+      "Falta de Interés por la lectura",
+      "Falta de atención y concentración al momento de realizar una lectura",
+      "Dificultad para escuchar y escribir a la vez"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%201%20-%20Aprender%20a%20leer/Crecimiento%20Personal%20Background.jpeg?updatedAt=1731072445679",
     "buyLink": "https://www.google.com",
@@ -40,13 +40,13 @@
   },
   {
     "id": "2",
-    "puv": "Ayudo a formar a los líderes del mañana, desarrollando hábitos de éxito.",
+    "puv": "Para formar los líderes del mañana, Se fomentarán hábitos para el éxito.",
     "title": "Los hábitos de un exitoso",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Crecimiento Personal",
-    "description": "<b>Empodera a los jóvenes a construir un futuro más saludable </b>a través del desarrollo de habilidades claves como la independencia, la toma de decisiones y el fortalecimiento de las relaciones sociales.",
+    "description": "<b>Empoderar a los jóvenes</b> en la construcción de un futuro más saludable a través del desarrollo de habilidades claves, como por ejemplo la independencia, la toma de decisiones y el fortalecimiento de las relaciones sociales.",
     "moreInfo": [
       "Mayor energía y vitalidad.",
       "Mejor rendimiento académico.",
@@ -59,15 +59,16 @@
     ],
     "target": [
       "Niños jóvenes  entre 10 y 17 años.",
-      "Falta de energía, cansancio frecuente.",
-      "Cambios de humor frecuentes.",
-      "Dificultad para concentrarse.",
-      "Problemas para dormir.",
-      "Baja autoestima.",
-      "Problemas digestivos.",
-      "Consumo excesivo de alimentos procesados y azúcares.",
-      "Higiene personal descuidada.",
-      "Problemas de peso."
+      "Falta de energía, cansancio frecuente",
+      "Cambios de humor frecuentes",
+      "Dificultad para concentrarse",
+      "Problemas para dormir",
+      "Baja autoestima",
+      "Problemas digestivos",
+      "Desinterés en actividades físicas",
+      "Consumo excesivo de alimentos procesados y azucares",
+      "Higiene personal descuidada",
+      "Problemas de peso"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com",
@@ -76,13 +77,13 @@
   },
   {
     "id": "3",
-    "puv": "Ayudo a sembrar las semillas de éxito para cultivar una mentalidad millonaria.",
+    "puv": "Siembra de las semillas de éxito y cosechar una mente millonaria.",
     "title": "Campeones del pensamiento",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Crecimiento Personal",
-    "description": "<b>Empodera a los jóvenes a construir un futuro financiero sólido y seguro</b>, equipándolos con las herramientas y habilidades necesarias para alcanzar sus metas, desde temprana edad.",
+    "description": "<b>Empoderamiento de los jóvenes </b> en la construcción de un futuro financiero sólido y seguro, facilitándoles las herramientas para la consecución de habilidades pertinentes para el alcance de sus metas, desde temprana edad.",
     "moreInfo": [
       "Mayor autoestima y confianza.",
       "Establecimiento de metas claras.",
@@ -95,13 +96,13 @@
     ],
     "target": [
       "Edad entre los 10 y 17 años.",
-      "Falta de metas claras.",
-      "Baja autoestima.",
-      "Miedo al fracaso.",
-      "Dificultad para concentrarse.",
-      "Tendencia a procrastinar.",
-      "Pensamientos negativos.",
-      "Falta de curiosidad."
+      "No identifican con claridad sus metas",
+      "baja autoestima",
+      "temen al fracaso",
+      "dificultad para concentrarse",
+      "tendencia a procrastinar",
+      "pensamientos negativos",
+      "poca curiosidad para encontrar respuestas"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%201.3/Campeones%20del%20pensamiento.webp?updatedAt=1731587529258",
     "buyLink": "www.google.com",
@@ -110,13 +111,13 @@
   },
   {
     "id": "4",
-    "puv": "Convierte sus desafíos en oportunidades, ayudándolo a desarrollar la fortaleza emocional que tu hijo necesitas.",
+    "puv": "Convertir los desafíos en oportunidades, ayudarlos a desarrollar fortaleza emocional que necesitan los niños y adolescentes.",
     "title": "Superpoderes emocionales",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Inteligencia Emocional",
-    "description": "<b> Descubre el poder de tus emociones. </b> Aprende a identificarlas, gestionarlas y transformarlas en tu mayor aliado. Desarrolla una mentalidad fuerte y resiliente para enfrentar cualquier desafío con confianza y optimismo.",
+    "description": "<b>Como descubrir el poder de las emociones,</b> aprende a identificarlas, a gestionarlas y luego transformarlas en el mayor aliado. Desarrolla una mentalidad fuerte y resiliente para enfrentar cualquier desafío con confianza y optimismo.",
     "moreInfo": [
       "Mayor autoestima y confianza.",
       "Establecimiento de metas claras.",
@@ -129,15 +130,15 @@
     ],
     "target": [
       "Edad entre los 10 y 17 años.",
-      "Interés en el desarrollo personal.",
-      "Dificultad para expresar emociones.",
-      "Problemas en las relaciones sociales.",
-      "Cambios emocionales frecuentes.",
-      "Baja autoestima.",
-      "Impulsividad.",
-      "Dificultad para concentrarse.",
-      "Interese en el desarrollo personal.",
-      "Motivación para aprender."
+      "Falta de interés en el desarrollo personal",
+      "Dificultad para expresar emociones",
+      "Poca interacción social",
+      "Cambios emocionales frecuentes",
+      "Baja autoestima",
+      "Continua Impulsividad",
+      "Falta de concentración",
+      "Falta de Interés en el desarrollo personal",
+      "Motivación para aprender"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%202%20-%20inteligencia%20emocional%20/Course%202.1/Superpoderes%20emocionales.webp?updatedAt=1731588126456",
     "buyLink": "www.google.com",
@@ -146,13 +147,13 @@
   },
   {
     "id": "5",
-    "puv": "<b>Desbloquea el potencial oculto de tu hijo </b> y Despierta al genio que lleva dentro con las 9 inteligencias.",
+    "puv": "Aflorar el potencial oculto que tiene tu hijo, Despertando al genio que lleva dentro aplicando las 9 inteligencias.",
     "title": "9 Claves para brillar",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Inteligencia Emocional",
-    "description": "<b>¡Descubre el genio que hay en tu hijo/a!</b> Nuestro curso de las 9 inteligencias, diseñado para niños entre 10 y 17 años, los ayudará a explorar sus talentos ocultos. A través de juegos, actividades creativas y proyectos divertidos, aprenderán a conocerse mejor y a desarrollar sus habilidades de manera integral. ¡Fortalecemos su autoestima, confianza y los preparamos para enfrentar los retos del futuro!",
+    "description": "<b>En tu hijo/a hay un genio</b> Con el curso de las 9 inteligencias, diseñado para niños y adolescentes entre 10 y 17 años, podrán exteriorizar sus talentos ocultos. A través de juegos, actividades creativas y proyectos divertidos e información que los llevará a aprender a conocerse mejor y así desarrollar habilidades de manera integral. ¡El fortalecimiento y reconocimiento de su autoestima y confianza preparadas para enfrentar los retos del futuro!",
     "moreInfo": [
       "Mayor conciencia de sí mismos.",
       "Aumento de la creatividad y la innovación.",
@@ -166,9 +167,9 @@
       "Tiene entre 10 y 17 años de edad.",
       "<b>Énfasis en una o pocas inteligencias:</b> Es común que los niños y adolescentes muestren una mayor inclinación natural hacia ciertas inteligencias, como la lingüística (a través de la lectura o escritura), la lógico-matemática (en juegos de estrategia o resolución de problemas), o la musical (tocando un instrumento o cantando).",
       "<b>Desconocimiento de otras inteligencias: </b> Muchos pueden no ser conscientes de la existencia de otras inteligencias o de cómo estas pueden complementarse entre sí.",
-      "<b> Poca exploración de diferentes actividades: </b> Pueden limitarse a realizar actividades que refuerzan sus inteligencias dominantes, sin experimentar otras áreas.",
+      "<b>Poca exploración de diferentes actividades: </b> Pueden limitarse a realizar actividades que refuerzan sus inteligencias dominantes, sin experimentar otras áreas.",
       "<b>Dificultades en áreas menos desarrolladas: </b> Pueden experimentar  desafíos en tareas que requieren el uso de inteligencias menos desarrolladas, lo que puede generar frustración o baja autoestima.",
-      "<b> Percepción limitada de sus propias capacidades: </b> Algunos pueden subestimar sus habilidades en áreas donde no destacan inicialmente."
+      "<b>Percepción limitada de sus propias capacidades: </b> Algunos pueden subestimar sus habilidades en áreas donde no destacan inicialmente."
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%202%20-%20inteligencia%20emocional%20/Course%202.2/9%20Claves%20para%20brillar.webp?updatedAt=1731588862171",
     "buyLink": "www.google.com",
@@ -178,12 +179,12 @@
   {
     "id": "6",
     "puv": "Descubre el lenguaje secreto de tus sentimientos y el dinero, y logra transformarlo en decisiones financieras inteligentes.",
-    "title": "Monedas con sentimientos",
+    "title": "Finanzas Emocionales",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Inteligencia Emocional",
-    "description": "En este curso, los jóvenes descubrirán cómo sus emociones influyen en sus decisiones financieras. A través de juegos, actividades prácticas y ejemplos del mundo real.",
+    "description": "Para descubrir el secreto que irradia la energía de las monedas y su relación con las personas en cuanto al sentimiento que genera el dinero, para transformarlo en decisiones financieras inteligentes. Hay que saber cómo influyen las emociones en esta área. </br></br> Este curso a través de diversidad de juegos, actividades prácticas, lecturas significativas y ejemplos resaltantes donde se evidencie como las emociones son uno de los elementos fundamentales que lo determinan, todo esto enfocado desde experiencias reales del cotidiano vivir.",
     "moreInfo": [
       "<b>Mayor conciencia emocional</b> será capaz de identificar y expresar sus emociones relacionadas con el dinero de manera más clara y saludable.",
       "Desarrollarán herramientas para manejar emociones y tomar decisiones más racionales.",
@@ -194,14 +195,13 @@
     ],
     "target": [
       "Jóvenes y niños entre 10 años y 17 años.",
-      "<b> Falta de conciencia sobre el dinero. </b>",
-      "Tienden a gastar impulsivamente sin considerar las consecuencias a largo plazo.",
-      "<b> Dificultad para ahorrar.</b>",
-      "<b> Miedo a hablar sobre el dinero.</b>",
-      "No saben cómo crear un presupuesto y administrar sus gastos de manera efectiva.",
-      "<b> Se ve influenciado por la publicidad y el consumismo.</b>",
-      "<b> Emociones que afectan las decisiones financieras. </b>",
-      "No suelen pensar en sus objetivos financieros a largo plazo."
+      "Desconocimiento acerca del valor del dinero y para que fue creado.",
+      "Gastan impulsivamente sin considerar las consecuencias.",
+      "Falta de hábitos para ahorrar.",
+      "Falta de educación en área contable y administrativa para elaborar y manejar un presupuesto como elemento organizativo.",
+      "Se deja Influenciar constantemente por la publicidad que conlleva al consumismo.",
+      "Desconoce que las emociones afectan las decisiones financieras.",
+      "Sus objetivos financieros a largo plazo no están definidos por falta de educación financiera."
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%202%20-%20inteligencia%20emocional%20/Course%202.3/Monedas%20con%20sentimientos.webp?updatedAt=1731589523622",
     "buyLink": "www.google.com",
@@ -210,13 +210,13 @@
   },
   {
     "id": "7",
-    "puv": "Convierte a tu hijo en agente especial del dinero, lo ayudo a descubrir la misión para lograr un futuro financiero estable.",
+    "puv": "Tu hijo se convertirá en un agente especial del dinero, podrá descubrir como su misión lo llevará a un futuro financiero estable.",
     "title": "Agente especial del dinero",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Finanzas",
-    "description": "Los conocimientos adquiridos les servirán a lo largo de su vida, ayudándoles a tomar decisiones financieras importantes como elegir una carrera, comprar una casa o planificar la jubilación.",
+    "description": "Tendrá las competencias para tomar decisiones financieras importantes, esto le servirá a lo largo de su vida, así como elegir una carrera, comprar una casa e incluso planificar la merecida jubilación. ",
     "moreInfo": [
       "<b> Mayor conciencia financiera. </b>",
       "<b>El dinero como herramienta importante para la vida.</b>",
@@ -227,12 +227,11 @@
       "<b> Desarrollo de la confianza en sus habilidades financieras. </b>"
     ],
     "target": [
-      "<b> Falta de conocimiento básico sobre el dinero. </b>",
-      "<b>No sabe la importancia del dinero.</b>",
-      "Tiende a valorar más los gastos impulsivos o los bienes materiales a corto plazo, sin considerar el futuro.",
-      "Les cuesta establecer metas de ahorro a largo plazo y resistir la tentación de gastar todo su dinero.",
-      "<b> Falta de hábitos financieros.</b>",
-      "<b> Miedo a hablar de dinero </b>, pueden sentirse incómodos al hablar sobre temas relacionados con el dinero con su entorno."
+      "<b>Desconocimiento básico sobre el dinero y su importancia en el contexto social a todo nivel.</b> Comercial, familiar, laboral y personal,",
+      "Valora más los gastos impulsivos o los bienes materiales a corto plazo, sin considerar lo que esto le pueda generar en el futuro.",
+      "Le cuesta establecer metas de ahorro a largo plazo, dejándose llevar por la tentación de gastar todo su dinero.",
+      "<b>Sus hábitos financieros no son prioridad.</b>",
+      "<b>Miedo a hablar de dinero</b>, en cuanto a su función, desconocimiento técnico de la relación que tiene el dinero en toda representación, en todo su entorno social."
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com",
@@ -241,15 +240,15 @@
   },
   {
     "id": "8",
-    "puv": "Aprende las reglas del dinero y descubre el secreto de las finanzas para siempre",
+    "puv": "Aprende las Reglas del Dinero y descubre el secreto de las finanzas para siempre",
     "title": "El juego de la vida y las finanzas",
     "hours": "X Horas",
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Finanzas",
-    "description": "<b> ¿Quieres que tus hijos aprendan a manejar su dinero como un adulto? ¡Este curso es para él! </b> De forma sencilla y divertida, descubrirán cómo ahorrar, gastar con inteligencia y alcanzar tus metas financieras.",
+    "description": "<b> ¿Quieres que tu hijo aprenda a manejar su dinero de una manera responsable?</b></br></br>¡Este curso es para el! Le ofrecemos de forma sencilla y divertida, descubrir cómo ahorrar, gastar con inteligencia y alcanzar sus metas financieras.",
     "moreInfo": [
-      "<b> Mayor conciencia financiera. </b>",
+      "Mayor conciencia financiera. ",
       "<b> Habilidad para tomar decisiones financieras.</b>",
       "Serán capaces de analizar información financiera, identificar oportunidades y riesgos.",
       "Entenderán la importancia de establecer metas financieras y desarrollar estrategias para alcanzarlas.",
@@ -258,10 +257,10 @@
       "Podrán crear y mantener un presupuesto personal, controlando sus gastos y ahorrando para el futuro."
     ],
     "target": [
-      "Comprensión simple de conceptos como ingresos, gastos, ahorro, inversión y deuda.",
-      "Le cuesta visualizar las consecuencias a largo plazo de sus decisiones financieras.",
-      "Se ven afectados por la publicidad y las tendencias de consumo, lo que puede llevar a decisiones impulsivas.",
-      "Dificultades para establecer metas financieras.",
+      "Falta de comprensión de conceptos básicos como: ingresos, gastos, ahorro, inversión y deuda,",
+      "Le visualizar las consecuencias de sus decisiones financieras a largo plazo",
+      "Toman decisiones impulsivas llevados por la publicidad y las tendencias de consumo",
+      "Dificultades para establecer metas financieras por miedo al fracaso",
       "<b> Miedo al fracaso </b> en temas financieros.",
       "<b> Dificultad para comprender conceptos abstractos sobre las finanzas.⁣ "
     ],
@@ -278,7 +277,7 @@
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Finanzas",
-    "description": "En este curso, los jóvenes y niños aprenderán a manejar su dinero de forma inteligente. Descubrirán cómo crear un presupuesto, ahorrar para el futuro, invertir sabiamente y tomar decisiones financieras responsables. ¡Les enseñaremos a construir un futuro financiero sólido!",
+    "description": "En este curso, los jóvenes y niños aprenderán a manejar su dinero de forma inteligente. Descubrirán cómo crear un presupuesto, ahorrar para el futuro, invertir sabiamente y tomar decisiones financieras responsables. <b> ¡Les enseñaremos a construir un futuro financiero sólido!</b> ",
     "moreInfo": [
       "Mayor conciencia financiera.",
       "Habilidad para tomar decisiones financieras.",
@@ -310,7 +309,7 @@
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Liderazgo",
-    "description": "<b>¡Domina el arte de la palabra!</b> Nuestro curso online te equipará con las habilidades esenciales para destacar en cualquier situación: desde presentaciones de negocios hasta discursos inspiradores. Aprende a estructurar tus discursos, a manejar tu voz y a conectar con tu público de manera auténtica.",
+    "description": "<b>¡Domina el arte de la palabra!</b> </br></br> Este curso online te hará adquirir habilidades esenciales para ejecutar planes y proyectos destacando en cada uno de esos planes o proyectos: haciendo de sus presentaciones de negocios o discursos inspiración para quienes lo rodeen. Aprender a estructurar discursos, el manejo de la voz y a conectar con el público auténticamente.",
     "moreInfo": [
       "<b>Mayor seguridad en sí mismos.</b>",
       "<b> Fortalecimiento de Autoestima.</b>",
@@ -322,14 +321,13 @@
       "<b> Desarrollo personal integral. </b>"
     ],
     "target": [
-      "<b> Miedo a hablar en público.</b>",
-      "<b> Falta de confianza en sí mismos.</b>",
-      "<b> Poca experiencia en presentaciones.</b>",
-      "<b>Dificultad para organizar las ideas.</b>",
-      "<b> Timidez </b>, prefiere pasar desapercibidos.",
-      "Limitaciones en el lenguaje para expresar ideas complejas.",
-      "<b> Postura corporal cerrada </b> que transmite inseguridad.",
-      "Dificultad para modular la voz y hacerla más atractiva."
+      "Muestra miedo escénico para hablar en público",
+      "Falta de confianza en sí mismo",
+      "Falta de experiencia en presentaciones en público",
+      "Dificultad para organizar las ideas",
+      "Su timidez lo domina, prefiere pasar desapercibido a expresar sus",
+      "Muestra inseguridad impidiendo una comunicación y participación efectiva",
+      "Dificultad para modular la voz, impidiendo el sonido de las palabras para dales mayor matiz"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com",
@@ -344,7 +342,7 @@
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Emprendimiento",
-    "description": "<b>Descubre el emprendedor que llevas dentro.</b> ¡Nuestro curso online te enseñará a transformar tus ideas en realidad! Aprenderás conceptos básicos de negocios, a crear tu propio plan de negocios y a desarrollar habilidades clave para emprender desde temprana edad. ¡Diviértete aprendiendo y construye tu futuro!",
+    "description": "<b>Llevas por dentro un emprendedor, descubre la forma más fácil de hacerlo salir.</b> </br></br> En este curso online obtendrás las herramientas para hacer tus ideas realidad Aprenderás conceptos básicos de negocios, crearas tu propio plan de negocios desarrollando habilidades y aprendiendo la clave para emprender a temprana edad.  ¡Construye tu futuro con diversión y aprendizaje!",
     "moreInfo": [
       "Confianza en tomar decisiones informadas y asumir responsabilidades.",
       "Capacidad para colaborar con otros, compartir ideas y alcanzar objetivos comunes.",
@@ -357,13 +355,13 @@
       "Responsabilidad: Sentido del deber y compromiso con sus acciones."
     ],
     "target": [
-      "<b> Enfoque en el presente.</b>",
-      "<b> Falta de experiencia práctica. </b>",
-      "Temor a tomar decisiones equivocadas o a no alcanzar los objetivos propuestos.",
-      "<b> Necesidad de guía:</b> Requieren de un marco estructurado y de un mentor que los oriente en el proceso.",
-      "Suelen estar más motivados por proyectos que les resulten atractivos y cercanos a sus intereses.",
-      "<b> Creatividad e innovación.</b>",
-      "<b> Adaptabilidad al cambio </b>, entorno digital y tecnológico en constante evolución."
+      "Solo vive Enfocado en el presente",
+      "Le falta de experiencia práctica",
+      "Teme tomar decisiones para alcanzar los objetivos propuestos por considerar que puede estar equivocado",
+      "Requiere de un mentor para ser orientado en los procesos para salir de un posible marco estructurado",
+      "Siente motivación por proyectos para ‘el atractivo en lugar de alguno de mayor complejidad y mas seguro",
+      "Falta de Creatividad e innovación",
+      "Le cuesta Adaptarse al cambio, al entorno digital y a los avances tecnológicos que se mantienen en constante evolución"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com",
@@ -417,7 +415,7 @@
     "classesCantity": "X Clases",
     "price": "100",
     "module": "Emprendimiento",
-    "description": "<b>¡Crea, lanza y vende tu propio producto digital!</b> Este curso divertido y dinámico te enseñará todo lo que necesitas saber para convertirte en un experto en emprendimiento digital. ¡Aprenderás jugando y te divertirás mientras desarrollas tu propio negocio online!",
+    "description": "<b>¡Crea, lanza y vende tu propio producto digital!</b> </br></br>Con la dinámica de este curso aprenderás de forma divertida todo lo que necesitas saber para convertirte en un experto en emprendimiento digital. ¡Aprenderás jugando y te divertirás mientras desarrollas tu propio negocio online!",
     "moreInfo": [
       "Confianza en tomar decisiones informadas y asumir responsabilidades.",
       "Capacidad para colaborar con otros, compartir ideas y alcanzar objetivos comunes.",
@@ -430,13 +428,12 @@
       "Responsabilidad: Sentido del deber y compromiso con sus acciones."
     ],
     "target": [
-      "Entusiasmo por la tecnología.",
-      "Posee creatividad e innovación.",
-      "Tiene Deseo de independencia.",
-      "Falta de experiencia en marketing y ventas.",
-      "Impaciencia y búsqueda de resultados rápidos.",
-      "Interés por el mundo digital.",
-      "Conocimiento en un tema específico."
+      "Muestras de entusiasmo por la tecnología",
+      "Es creativo e innovador ante las tareas que ejecuta",
+      "Está deseoso de independencia",
+      "Es inexperto en marketing y ventas",
+      "Muestra Impaciencia ante la espera de resultados",
+      "Tiene interés por el mundo digital"
     ],
     "background": "https://ik.imagekit.io/crefinex/Courses/Module%201%20-%20Crecimiento%20personal/Course%202%20-%20H%C3%A1bitos%20saludables/H%C3%A1bitos%20saludables%20Background.jpeg?updatedAt=1731072873622",
     "buyLink": "www.google.com",

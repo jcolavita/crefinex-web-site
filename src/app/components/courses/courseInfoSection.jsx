@@ -107,22 +107,7 @@ function CourseInfo({ ...props }) {
             ))}
           </div>
         </div>
-        <div className="w-full flex justify-center mb-2">
-          <a href={props.buyLink} target="blank">
-            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
-              Comprar Ahora
-            </button>
-          </a>
-        </div>
-        <div className="w-full flex justify-center gap-2 text-BLUE-700  ">
-          <Image
-            src={MetodosPago}
-            alt="metodos de pago"
-            className=" w-56 rounded-sm"
-          />
-        </div>
-      </div>
-      {/* <div className="w-full ">
+        <div className="w-full ">
           <span
             className={`collapse-transition transition-all ease-in-out text-center w-full text-BLUE-700 mb-5 ${
               collapse ? " expanded" : " "
@@ -150,7 +135,22 @@ function CourseInfo({ ...props }) {
               />
             </button>
           </div>
-        </div> */}
+        </div>
+        <div className="w-full flex justify-center mb-2">
+          <a href={props.buyLink} target="blank">
+            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
+              Comprar Ahora
+            </button>
+          </a>
+        </div>
+        <div className="w-full flex justify-center gap-2 text-BLUE-700  ">
+          <Image
+            src={MetodosPago}
+            alt="metodos de pago"
+            className=" w-56 rounded-sm"
+          />
+        </div>
+      </div>
     </section>
   );
 }

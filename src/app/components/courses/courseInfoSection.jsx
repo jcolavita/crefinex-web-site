@@ -61,7 +61,7 @@ function CourseInfo({ ...props }) {
               </button>
             </a>
             <h3
-              className={`text-left w-full font-bold lg:text-3xl md:text-2xl text-xl ${
+              className={`text-white text-left w-full font-bold lg:text-3xl md:text-2xl text-xl ${
                 props.buyLink === "Proximamente" ? ` ` : " hidden "
               } `}
             >

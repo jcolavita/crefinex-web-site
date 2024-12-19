@@ -81,7 +81,7 @@ function CourseInfo({ ...props }) {
       </div>
       <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
         <p
-          className=" w-full lg:text-base text-sm text-center mb-4"
+          className=" w-full lg:text-lg text-sm text-center mb-4"
           dangerouslySetInnerHTML={{ __html: props.description }}
         />
         <h3 className="text-center w-full font-bold lg:text-3xl md:text-2xl text-xl">

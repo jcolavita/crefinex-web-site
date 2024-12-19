@@ -28,21 +28,45 @@ function CourseInfo({ ...props }) {
             </p>
 
             <div className=" flex md:w-[40%] w-full md:justify-between justify-center gap-x-4  md:mb-3 mb-3">
-              <p className="lg:text-xl text-base font-semibold">
+              <p
+                className={`lg:text-xl text-base font-semibold ${
+                  props.buyLink === "Proximamente" ? ` hidden` : "  "
+                } `}
+              >
                 {props.hours}
               </p>
-              <p className="lg:text-xl text-base font-semibold">
+              <p
+                className={` lg:text-xl text-base font-semibold ${
+                  props.buyLink === "Proximamente" ? ` hidden` : "  "
+                } `}
+              >
                 {props.classes}
               </p>
             </div>
-            <h2 className=" md:text-4xl text-2xl md:text-left text-center text-white font-bold md:mb-5 mb-3">
+            <h2
+              className={`md:text-4xl text-2xl md:text-left text-center text-white font-bold md:mb-5 mb-3${
+                props.buyLink === "Proximamente" ? ` hidden` : "  "
+              } `}
+            >
               {props.price} $
             </h2>
-            <a href={props.buyLink}>
+            <a
+              href={props.buyLink}
+              className={`${
+                props.buyLink === "Proximamente" ? ` hidden` : "  "
+              } `}
+            >
               <button className=" lg:hover:scale-105 w-full md:w-auto transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 md:py-3 py-2 rounded-xl text-black">
                 Comprar Ahora
               </button>
             </a>
+            <h3
+              className={`text-left w-full font-bold lg:text-3xl md:text-2xl text-xl ${
+                props.buyLink === "Proximamente" ? ` ` : " hidden "
+              } `}
+            >
+              {props.buyLink}
+            </h3>
           </div>
           {/* <div className="w-[40%]  z-30 relative overflow-hidden hidden md:block">
             <Image

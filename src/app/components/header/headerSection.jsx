@@ -40,13 +40,13 @@ export default function Header() {
         </div>
       </div>
       <div className="  md:h-full  md:w-[45%] w-auto relative ">
-        <div className=" hidden  lg:block w-[150px] h-[150px] animate-blob animation-delay-4000 rounded-3xl absolute left-0 top-5 bg-BLUE-100  shadow-slate-800 shadow-md"></div>
-        <div className=" hidden  lg:block w-[170px] h-[170px] animate-blob animation-delay-3000 rounded-3xl absolute -right-4 -top-0 bg-PURPLE-200 shadow-slate-800 shadow-md "></div>
-        <div className=" hidden  lg:block w-[150px] h-[150px] animate-blob animation-delay-2000 rounded-3xl absolute left-0 bottom-10 bg-MAGENTA-200 shadow-slate-800 shadow-md"></div>
-        <div className=" hidden lg:block w-[160px] h-[160px] animate-blob animation-delay-1000 rounded-3xl absolute right-0 bottom-5 bg-BLUE-200 shadow-slate-800 shadow-md"></div>
+        <div className=" hidden  lg:block w-[150px] h-[150px] animate-blob animation-delay-4000 rounded-3xl absolute left-0 top-5 bg-[#ffff58]  shadow-slate-800 shadow-md"></div>
+        <div className=" hidden  lg:block w-[170px] h-[170px] animate-blob animation-delay-3000 rounded-3xl absolute -right-4 -top-0 bg-[#F58635] shadow-slate-800 shadow-md "></div>
+        <div className=" hidden  lg:block w-[150px] h-[150px] animate-blob animation-delay-2000 rounded-3xl absolute left-0 bottom-10 bg-[#19B2EB] shadow-slate-800 shadow-md"></div>
+        <div className=" hidden lg:block w-[160px] h-[160px] animate-blob animation-delay-1000 rounded-3xl absolute right-0 bottom-5 bg-[#94D30A] shadow-slate-800 shadow-md"></div>
         <div
           className={`lg:w-[320px] lg:h-[350px] w-[280px] h-[300px] lg:animate-blob rounded-3xl absolute right-0 left-0 md:top-0 md:bottom-0 top-5 m-auto
-            bg-gradient-to-br from-PURPLE-400 to-BLUE-700 shadow-slate-800 shadow-md`}
+            bg-gradient-to-br from-PURPLE-100 to-BLUE-600 shadow-slate-800 shadow-md`}
         >
           <div className="w-full absolute bottom-0 ">
             {data && (
@@ -60,7 +60,7 @@ export default function Header() {
                   <Image
                     src={item.image}
                     key={item.id}
-                    width={1000}
+                    width={1319}
                     height={1500}
                     alt="Yismary Arias junto con esudiante de la acedemia"
                   />

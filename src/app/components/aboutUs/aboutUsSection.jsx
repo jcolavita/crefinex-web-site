@@ -29,7 +29,7 @@ function AboutUs() {
             className=" w-[1160px] aspect-video rounded-3xl"
           />
         </div>
-        <p className="text-center text-sm lg:text-base lg:pb-[60px] pb-[30px] text-BLUE-700">
+        <p className="text-center text-sm lg:text-lg lg:pb-[60px] pb-[30px] text-BLUE-700">
           En Crefinex creemos en la educación financiera como un pilar
           fundamental para el desarrollo personal y profesional, con el objetivo
           de Empoderar a los jóvenes con los conocimientos necesarios para
@@ -44,21 +44,21 @@ function AboutUs() {
             autoplay={false}
           >
             <Cards
-              bgColor=" bg-PURPLE-400"
+              bgColor=" bg-[#94D30A] "
               circleOutline="outline-PURPLE-400"
               title="Empoderando  líderes"
               text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
               icon={Global}
             ></Cards>
             <Cards
-              bgColor=" bg-PURPLE-400"
+              bgColor=" bg-[#F58635]"
               circleOutline="outline-PURPLE-400"
               title="Herramientas para el éxito"
               text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
               icon={Calculator}
             ></Cards>
             <Cards
-              bgColor=" bg-PURPLE-400"
+              bgColor=" bg-[#19B2EB] "
               circleOutline="outline-PURPLE-400"
               title="Aprender Divirtiéndose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos

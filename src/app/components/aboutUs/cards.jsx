@@ -7,7 +7,7 @@ export default function Cards({ children, ...props }) {
       <div
         className={
           props.bgColor +
-          " relative w-full h-[40%] md:rounded-t-3xl rounded-t-xl"
+          " relative w-full h-[40%] md:rounded-t-3xl rounded-t-xl "
         }
       >
         <div className="absolute w-[80%] h-[80%] outline-[4px] outline bottom-0 left-0 right-0 m-auto outline-white  rounded-t-lg">

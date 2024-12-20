@@ -9,23 +9,21 @@ function CourseInfo({ ...props }) {
 
   return (
     <section className="font-lexend bg-white ">
-      <div className="w-full h-[500px] relative shadow-lg shadow-slate-600">
+      <div className="w-full h-auto relative shadow-lg shadow-slate-600">
         <Image
           src={props.background}
           fill="true"
           alt="Background"
           className="object-cover  absolute z-0"
         />
-        {/* <div className="bg-gradient-to-br   from-PURPLE-700/80 from-[45%] to-white/0 w-[100%]  h-[100%] absolute  z-10 "></div> */}
-      </div>
-      <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
-        <div className="flex text-black">
-          <div className=" w-full md:pb-10 pb-7  z-30 relative flex flex-col items-center md:items-start">
+        <div className="bg-gradient-to-br   from-PURPLE-700/80 from-[45%] to-white/0 w-[100%]  h-[100%] absolute  z-10 "></div>
+        <div className="flex ">
+          <div className=" w-full pt-20 md:pb-10 pb-7 md:pt-32 z-30 relative  lg:px-[100px] md:px-[50px] px-[25px] flex flex-col items-center md:items-start">
             <h1
               dangerouslySetInnerHTML={{ __html: props.title }}
-              className=" md:w-[100%] font-bold   lg:text-6xl md:text-5xl text-4xl md:text-left text-center md:mb-5 mb-2 "
+              className=" md:w-[55%] font-bold text-white  lg:text-6xl md:text-5xl text-4xl md:text-left text-center md:mb-5 mb-2 "
             />
-            <p className="lg:w-[60%] font-semibold lg:text-xl text-base md:text-left text-center md:mb-5 mb-2">
+            <p className="lg:w-[60%] text-white font-semibold lg:text-xl text-base md:text-left text-center md:mb-5 mb-2">
               {props.puv}
             </p>
 
@@ -46,7 +44,7 @@ function CourseInfo({ ...props }) {
               </p>
             </div>
             <h2
-              className={`md:text-4xl text-2xl md:text-left text-center  font-bold md:mb-5 mb-3${
+              className={`md:text-4xl text-2xl md:text-left text-center text-white font-bold md:mb-5 mb-3${
                 props.buyLink === "Proximamente" ? ` hidden` : "  "
               } `}
             >
@@ -63,7 +61,7 @@ function CourseInfo({ ...props }) {
               </button>
             </a>
             <h3
-              className={`text-left w-full font-bold lg:text-3xl md:text-2xl text-xl ${
+              className={`text-white text-left w-full font-bold lg:text-3xl md:text-2xl text-xl ${
                 props.buyLink === "Proximamente" ? ` ` : " hidden "
               } `}
             >
@@ -80,6 +78,8 @@ function CourseInfo({ ...props }) {
             />
           </div> */}
         </div>
+      </div>
+      <div className="px-[25px]  lg:px-[100px] md:px-[50px] lg:py-[50px] py-[25px] w-full text-BLUE-700">
         <p
           className=" w-full lg:text-lg text-sm text-center mb-4"
           dangerouslySetInnerHTML={{ __html: props.description }}
@@ -107,7 +107,22 @@ function CourseInfo({ ...props }) {
             ))}
           </div>
         </div>
-        <div className="w-full ">
+        <div className="w-full flex justify-center mb-2">
+          <a href={props.buyLink} target="blank">
+            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
+              Comprar Ahora
+            </button>
+          </a>
+        </div>
+        <div className="w-full flex justify-center gap-2 text-BLUE-700  ">
+          <Image
+            src={MetodosPago}
+            alt="metodos de pago"
+            className=" w-56 rounded-sm"
+          />
+        </div>
+      </div>
+      {/* <div className="w-full ">
           <span
             className={`collapse-transition transition-all ease-in-out text-center w-full text-BLUE-700 mb-5 ${
               collapse ? " expanded" : " "
@@ -135,22 +150,7 @@ function CourseInfo({ ...props }) {
               />
             </button>
           </div>
-        </div>
-        <div className="w-full flex justify-center mb-2">
-          <a href={props.buyLink} target="blank">
-            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
-              Comprar Ahora
-            </button>
-          </a>
-        </div>
-        <div className="w-full flex justify-center gap-2 text-BLUE-700  ">
-          <Image
-            src={MetodosPago}
-            alt="metodos de pago"
-            className=" w-56 rounded-sm"
-          />
-        </div>
-      </div>
+        </div> */}
     </section>
   );
 }

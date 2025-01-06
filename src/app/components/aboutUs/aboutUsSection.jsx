@@ -5,9 +5,9 @@ import Cards from "./cards";
 import Testimonials from "./testimonials/testimonial";
 import Calculator from "../../../../public/images/svg/calculator.svg";
 import Global from "../../../../public/images/svg/global.svg";
-import Mind from "../../../../public/images/svg/mind.svg";
 import Pilars from "./pilars/pilarsSection";
 import Carousel from "./carousel";
+import Mind from "../svgComponents/mind";
 
 function AboutUs() {
   return (
@@ -63,7 +63,7 @@ function AboutUs() {
               title="Aprender Divirtiéndose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                       financieros saludables para un futuro brillante"
-              icon={Mind}
+              icon={<Mind fill="#19B2EB" />}
             ></Cards>
           </Carousel>
         </div>

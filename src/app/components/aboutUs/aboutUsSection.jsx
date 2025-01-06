@@ -5,9 +5,9 @@ import Cards from "./cards";
 import Testimonials from "./testimonials/testimonial";
 import Calculator from "../../../../public/images/svg/calculator.svg";
 import Global from "../../../../public/images/svg/global.svg";
+import Mind from "../../../../public/images/svg/mind.svg";
 import Pilars from "./pilars/pilarsSection";
 import Carousel from "./carousel";
-import Mind from "../svgComponents/mind";
 
 function AboutUs() {
   return (
@@ -45,25 +45,25 @@ function AboutUs() {
           >
             <Cards
               bgColor=" bg-[#94D30A] "
-              circleOutline="outline-PURPLE-400"
+              circleOutline="outline-[#94D30A]"
               title="Empoderando  líderes"
               text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
               icon={Global}
             ></Cards>
             <Cards
               bgColor=" bg-[#F58635]"
-              circleOutline="outline-PURPLE-400"
+              circleOutline="outline-[#F58635]"
               title="Herramientas para el éxito"
               text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
               icon={Calculator}
             ></Cards>
             <Cards
               bgColor=" bg-[#19B2EB] "
-              circleOutline="outline-PURPLE-400"
+              circleOutline="outline-[#19B2EB]"
               title="Aprender Divirtiéndose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                       financieros saludables para un futuro brillante"
-              icon={<Mind fill="#19B2EB" />}
+              icon={Mind}
             ></Cards>
           </Carousel>
         </div>

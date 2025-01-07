@@ -52,7 +52,11 @@ function Footer() {
           <div className=" md:w-[300px] w-auto px-[24px] md:pt-[24px] pb-[35px] md:pb-0">
             <ul className="">
               <div className="pb-[20px] md:text-base text-sm">
-                <FooterItem className="">
+                <FooterItem
+                  className="cursor-pointer"
+                  target="_blank"
+                  link="https://maps.app.goo.gl/AmAQXX5Kj3qe28LH9"
+                >
                   <FaMapMarkerAlt color={"#14093E"} size={24} />
                   <p className="pl-[10px]">Ubicación</p>
                 </FooterItem>

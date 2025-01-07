@@ -21,7 +21,7 @@ export default function PilarSection() {
             title={"Mentalidad y bienestar"}
             description="No solo enseñamos a los jóvenes a manejar su dinero, sino que
               también les ayudamos a desarrollar una relación sana con él."
-            className=" bg-PRIMARY-300/40"
+            className=" bg-SKYBLUE-600/40"
           />
 
           <Pilars
@@ -36,7 +36,7 @@ export default function PilarSection() {
             title={"Finanzas personales e inversión."}
             description="Domina tu dinero, construye tu futuro. Descubre los secretos de
               las finanzas personales e inversión en nuestra academia."
-            className=" bg-MAGENTA-200/60"
+            className=" bg-GREEN-600/50"
           />
         </div>
       </div>

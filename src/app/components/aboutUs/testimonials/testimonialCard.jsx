@@ -7,7 +7,7 @@ function TestimonialCard({ ...props }) {
       className={
         "bg-" +
         props.bgColor +
-        " lg:h-[270px]  lg:mx-8 md:mx-10 mx-5 h-[240px] rounded-3xl  relative "
+        " lg:h-[270px]  lg:mx-8 md:mx-10 mx-5 h-[240px] rounded-3xl  relative outline outline-black outline-1 my-2  "
       }
     >
       <div className="h-[50%]">
@@ -20,7 +20,7 @@ function TestimonialCard({ ...props }) {
             className={
               "text-" +
               props.bgColor +
-              " lg:text-xl font-medium  text-base absolute top-10 left-2 w-5 "
+              " lg:text-xl font-medium  text-base absolute top-10 left-2 w-5 text-black"
             }
           >
             {props.name}
@@ -36,7 +36,7 @@ function TestimonialCard({ ...props }) {
       </div>
 
       <div className="flex h-[50%] items-center">
-        <p className="w-auto px-[6%] text-white lg:text-base text-sm ">
+        <p className="w-auto px-[6%] text-black lg:text-base text-sm ">
           {props.testimonials}
         </p>
       </div>

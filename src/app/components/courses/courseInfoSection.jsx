@@ -90,7 +90,12 @@ function CourseInfo({ ...props }) {
               className=" w-full outline outline-4 outline-BLUE-700 rounded-md"
               priority={true}
             />
-            <div className="flex flex-col gap-2 items-center">
+
+            <div
+              className={`flex flex-col gap-2 items-center${
+                props.buyLink === "Proximamente" ? " hidden " : ""
+              }`}
+            >
               <a href={props.buyLink}>
                 <button className=" lg:hover:scale-105 w-full md:w-auto transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 md:py-3 py-2 rounded-xl text-black">
                   Comprar Ahora
@@ -114,11 +119,11 @@ function CourseInfo({ ...props }) {
             ))}
           </div>
         </div>
-        <p className="text-center w-full text-BLUE-700 font-bold md:text-3xl px-[100px]">
+        <p className="text-center w-full text-BLUE-700 font-bold md:text-3xl ">
           Lo que tu hijo lograra con este curso:
         </p>
         <br></br>
-        <div className="w-full mx-20 flex items-center mb-10">
+        <div className="w-full md:mx-20 md:flex items-center mb-10 lg:my-[50px] my-[30px]">
           <div>
             {props.moreInfo.map((item, index) => (
               <li key={index} className="text-lg">
@@ -134,14 +139,16 @@ function CourseInfo({ ...props }) {
           ></Image>
         </div>
 
-        <div className="w-full flex justify-center mb-2">
-          <a href={props.buyLink} target="blank">
-            <button className="w-full md:w-auto lg:hover:scale-105 transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 py-3 rounded-xl text-black">
+        <div
+          className={`flex flex-col gap-2 items-center${
+            props.buyLink === "Proximamente" ? " hidden " : ""
+          }`}
+        >
+          <a href={props.buyLink}>
+            <button className=" lg:hover:scale-105 w-full md:w-auto transition-all ease-in-out  text-lg font-semibold bg-amber-400 px-6 md:py-3 py-2 rounded-xl text-black">
               Comprar Ahora
             </button>
           </a>
-        </div>
-        <div className="w-full flex justify-center gap-2 text-BLUE-700  ">
           <Image
             src={MetodosPago}
             alt="metodos de pago"

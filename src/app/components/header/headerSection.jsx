@@ -20,7 +20,7 @@ export default function Header() {
     >
       <div className="h-auto flex flex-co md:w-[55%] w-auto md:pr-10 text-center md:text-left items-center relative ">
         <BlurryItem className="bg-YELLOW-500/80 lg:right-14 lg:bottom-5 md:-right-80 md:bottom-10 right-14 bottom-5 " />
-        <BlurryItem className="bg-MAGENTA-200 lg:top-0 lg:left-16 hidden md:block md:left-60 md:top-8" />
+        <BlurryItem className="bg-SKYBLUE-600/70 lg:top-0 lg:left-16 hidden md:block md:left-60 md:top-8" />
         <BlurryItem className="bg-PRIMARY-300 lg:bottom-10 lg:left-5 bottom-10 left-5 md:-left-10 md:bottom-32   " />
         <div className=" h-auto relative z-10 animate-jump-in animate-once animate-duration-[800ms] animate-delay-300">
           <h1 className="text-BLUE-700 lg:text-6xl md:text-5xl text-4xl font-bold md:pb-[25px] pb-[15px]">

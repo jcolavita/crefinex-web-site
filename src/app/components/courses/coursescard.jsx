@@ -38,18 +38,33 @@ function CoursesCard({ cursosFiltrados, modulo }) {
             />
 
             <div className=" flex md:w-[60%] justify-between md:text-base text-sm">
-              <div className="flex items-center gap-[5px]">
+              <div
+                className={`flex items-center gap-[5px] ${
+                  curso.buyLink === "Proximamente" ? ` hidden` : "  "
+                } `}
+              >
                 <FaRegClock />
                 <p className="font-medium lg:text-base text-sm">
                   {curso.hours}
                 </p>
               </div>
-              <div className="flex items-center gap-[5px]">
+              <div
+                className={`flex items-center gap-[5px] ${
+                  curso.buyLink === "Proximamente" ? ` hidden` : "  "
+                } `}
+              >
                 <MdOutlineClass />
-                <p className="font-medium md:text-base text-sm">
+                <p className={`font-medium md:text-base text-sm`}>
                   {curso.classesCantity}
                 </p>
               </div>
+              <p
+                className={`font-semibold text-lg  ${
+                  curso.buyLink !== "Proximamente" ? ` hidden` : "  "
+                } `}
+              >
+                PROXIMAMENTE
+              </p>
             </div>
             <div className=" flex w-full justify-end ${curso.cardColor}">
               <Link

@@ -17,7 +17,7 @@ export default function Testimonial() {
     <div className="  w-full md:h-[600x] h-auto bg-gradient-to-br from-PRIMARY-400 to-BLUE-700   py-[30px]">
       <div className="md:flex md:px-[50px] lg:px-[100px] px-[25px]">
         <div className=" md:w-[40%] w-full  pt-5">
-          <div className="lg:h-[120px] lg:w-[120px] h-[100px] w-[100px] bg-white  rounded-full hidden md:flex  items-center justify-center">
+          <div className="lg:h-[120px] lg:w-[120px] h-[100px] w-[100px] bg-white  rounded-full hidden md:flex  items-center justify-center animate-wiggle animate-infinite animate-duration-[4000ms] animate-delay-200">
             <Image src={Quotation} alt="Quotatio icon" className="w-[80%] " />
           </div>
           <h4 className="lg:text-3xl md:text-2xl text-xl font-medium text-white md:w-80  text-center md:text-left md:mb-0 mb-10">

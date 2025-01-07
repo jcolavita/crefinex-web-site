@@ -38,6 +38,7 @@ export default function Testimonial() {
                   testimonials={item.testimonial}
                   imagen={item.image}
                   key={item.id}
+                  bgColor={item.bgColor}
                 />
               ))}
             </Carousel>

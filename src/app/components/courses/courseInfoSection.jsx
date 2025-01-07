@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import ChevronDown from "../../../../public/images/svg/chevron.svg";
 import MetodosPago from "../../../../public/images/webp/metodos-Pago.webp";
-import graduationkid from "../../../../public/images/graduation-kid.png";
+import graduationkid from "../../../../public/images/webp/graduation-kid.webp";
 
 function CourseInfo({ ...props }) {
   const [collapse, setCollapse] = useState(false);
@@ -130,6 +130,7 @@ function CourseInfo({ ...props }) {
             src={graduationkid}
             alt="niño exitoso"
             className="w-[35%]"
+            priority
           ></Image>
         </div>
 

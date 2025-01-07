@@ -3,14 +3,26 @@ import React from "react";
 
 function TestimonialCard({ ...props }) {
   return (
-    <div className=" lg:h-[270px]  lg:mx-8 md:mx-10 mx-5 h-[240px] rounded-3xl bg-white relative">
+    <div
+      className={
+        "bg-" +
+        props.bgColor +
+        " lg:h-[270px]  lg:mx-8 md:mx-10 mx-5 h-[240px] rounded-3xl  relative "
+      }
+    >
       <div className="h-[50%]">
         <div
           className={
-            " bg-BLUE-200 w-[90%] h-[40%]  absolute rounded-t-2xl top-3 left-0 right-0 m-auto overflow-hidden"
+            " bg-white w-[90%] h-[40%]  absolute rounded-t-2xl top-3 left-0 right-0 m-auto overflow-hidden"
           }
         >
-          <p className="text-black lg:text-xl font-medium text-base absolute top-10 left-2 w-5 ">
+          <p
+            className={
+              "text-" +
+              props.bgColor +
+              " lg:text-xl font-medium  text-base absolute top-10 left-2 w-5 "
+            }
+          >
             {props.name}
           </p>
           <Image
@@ -24,7 +36,7 @@ function TestimonialCard({ ...props }) {
       </div>
 
       <div className="flex h-[50%] items-center">
-        <p className="w-auto px-[6%] text-BLUE-700 lg:text-base text-sm ">
+        <p className="w-auto px-[6%] text-white lg:text-base text-sm ">
           {props.testimonials}
         </p>
       </div>

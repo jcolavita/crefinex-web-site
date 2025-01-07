@@ -2,24 +2,57 @@
   {
     "id": "1",
     "name": "Ivian duran",
+    "bgColor": "YELLOW-500 ",
     "testimonial": "Gracias a los conocimientos que obtuve en crefinex pude desarrollar mi idea de negocio.",
     "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-1.webp?updatedAt=1731682169973"
   },
   {
     "id": "2",
     "name": "Nancy Duran",
+    "bgColor": "YELLOW-500  ",
     "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
     "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/IMG_20240402_104310%203.png?updatedAt=1736142105314"
   },
   {
     "id": "3",
     "name": "Guillermo Puente",
+    "bgColor": "ORANGE-600  ",
     "testimonial": "He avanzado mucho, he aprendido sobre finanzas y cómo controlar mis gastos e inversiones.",
     "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-2.webp?updatedAt=1731682169948"
   },
   {
     "id": "4",
     "name": "Rodolfo Moreno",
+    "bgColor": "ORANGE-600  ",
+    "testimonial": "He visto muchos cambios en mi hija, la he visto motivada, por cómo saber es realmente la economía.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/Representante-1.webp?updatedAt=1731682122270"
+  },
+  {
+    "id": "5",
+    "name": "Ivian duran",
+    "bgColor": "GREEN-600 ",
+    "testimonial": "Gracias a los conocimientos que obtuve en crefinex pude desarrollar mi idea de negocio.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-1.webp?updatedAt=1731682169973"
+  },
+  {
+    "id": "6",
+    "name": "Nancy Duran",
+    "bgColor": "GREEN-600  ",
+    "testimonial": "Ha sido un gran aprendizaje, ya no piensa de forma inmadura en cuanto a las finanzas.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/IMG_20240402_104310%203.png?updatedAt=1736142105314"
+  },
+
+  {
+    "id": "7",
+    "name": "Guillermo Puente",
+    "bgColor": "SKYBLUE-600  ",
+    "testimonial": "He avanzado mucho, he aprendido sobre finanzas y cómo controlar mis gastos e inversiones.",
+    "image": "https://ik.imagekit.io/crefinex/Testimonials/Students/Estudiante-2.webp?updatedAt=1731682169948"
+  },
+  {
+    "id": "8",
+    "name": "Rodolfo Moreno",
+    "bgColor": "SKYBLUE-600  ",
     "testimonial": "He visto muchos cambios en mi hija, la he visto motivada, por cómo saber es realmente la economía.",
     "image": "https://ik.imagekit.io/crefinex/Testimonials/Representantes/Representante-1.webp?updatedAt=1731682122270"
   }

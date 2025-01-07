@@ -1,27 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Next.js project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Crefinex Web Site
+# Crefinex Academy Website
 
-This website is designed to showcase the Crefinex Academy, a platform dedicated to providing financial education for children and young adults. We aim to foster financial literacy from a young age through a variety of resources and tools.
+Crefinex Academy is a platform designed to empower children and young adults with essential financial literacy skills. Through a variety of engaging resources and tools, we aim to foster a strong financial foundation from a young age.
 
-# installation
+**Features:**
 
-## prerequisites
+- Interactive online courses
+- Gamified learning experiences
+
+## Prerequisites
 
 Node.js and npm (or yarn) installed.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone (https://github.com/jcolavita/crefinex-web-site.git)
+
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.

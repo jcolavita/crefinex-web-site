@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function ImagesSection() {
   return (
-    <div className="pt-10 pb-4 mt-[50px] bg-gradient-to-br from-PURPLE-400 to-BLUE-700">
+    <div className="pt-10 pb-4 mt-[50px] bg-gradient-to-br from-PRIMARY-400 to-BLUE-700">
       <div className="flex flex-col gap-y-2">
         <div className="flex gap-5 justify-between">
           <Image

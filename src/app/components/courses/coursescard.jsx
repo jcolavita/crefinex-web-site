@@ -54,7 +54,7 @@ function CoursesCard({ cursosFiltrados, modulo }) {
             <div className=" flex w-full justify-end ${curso.cardColor}">
               <Link
                 href={`/pages/courses/${curso.id}`}
-                className={`text-center md:w-auto w-full bg-gradient-to-br from-PURPLE-400 to-BLUE-700 px-10 text-white font-semibold 
+                className={`text-center md:w-auto w-full bg-gradient-to-br from-PRIMARY-400 to-BLUE-700 px-10 text-white font-semibold 
                 rounded-full py-[4px] outline outline-2 outline-BLUE-700 hover:scale-105 transition-all ease-in-out`}
               >
                 {curso.card}

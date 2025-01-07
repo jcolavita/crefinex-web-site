@@ -14,9 +14,9 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <div className="  w-full md:h-[600x] h-auto bg-gradient-to-br from-PURPLE-400 to-BLUE-700   py-[30px]">
+    <div className="  w-full md:h-[600x] h-auto bg-gradient-to-br from-PRIMARY-400 to-BLUE-700   py-[30px]">
       <div className="md:flex md:px-[50px] lg:px-[100px] px-[25px]">
-        <div className=" md:w-[55%] w-full  pt-5">
+        <div className=" md:w-[40%] w-full  pt-5">
           <div className="lg:h-[120px] lg:w-[120px] h-[100px] w-[100px] bg-white  rounded-full hidden md:flex  items-center justify-center">
             <Image src={Quotation} alt="Quotatio icon" className="w-[80%] " />
           </div>
@@ -24,7 +24,7 @@ export default function Testimonial() {
             Ellos son la prueba de nuestro esfuerzo
           </h4>
         </div>
-        <div className="md:w-[50%] mx-[25px] md:mx-0  ">
+        <div className="md:w-[60%] mx-[25px] md:mx-0  ">
           {data && (
             <Carousel
               slidesToShow={2}

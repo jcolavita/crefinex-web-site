@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Cards({ children, ...props }) {
   return (
-    <div className=" lg:h-[390px] lg:max-w-[310px] lg:mx-11 md:mx-56 mx-12 my-[1px] h-[340px] max-w-[270px] text-BLUE-700 bg-white md:rounded-3xl rounded-xl relative shadow-sm ourline outline-slate-600 shadow-slate-700 ">
+    <div className=" lg:h-[390px] lg:max-w-[310px] lg:mx-11 md:mx-56 mx-12 my-[1px] h-[340px] max-w-[270px] text-BLUE-700 bg-white md:rounded-3xl rounded-xl relative shadow-sm ourline outline-slate-600 shadow-slate-700 hover:animate-wiggle animate-once animate-duration-[400ms]">
       <div
         className={
           props.bgColor +

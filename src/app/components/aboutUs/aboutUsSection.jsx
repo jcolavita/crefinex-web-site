@@ -44,22 +44,22 @@ function AboutUs() {
             autoplay={false}
           >
             <Cards
-              bgColor=" bg-[#94D30A] "
-              circleOutline="outline-[#94D30A]"
+              bgColor=" bg-GREEN-600 "
+              circleOutline="outline-GREEN-600"
               title="Empoderando  líderes"
               text="Empoderamos a jóvenes para un futuro financiero sólido, enseñándoles a gestionar su dinero desde niños."
               icon={Global}
             ></Cards>
             <Cards
-              bgColor=" bg-[#F58635]"
-              circleOutline="outline-[#F58635]"
+              bgColor=" bg-ORANGE-600"
+              circleOutline="outline-ORANGE-600"
               title="Herramientas para el éxito"
               text="Ofrecemos herramientas prácticas para que los jóvenes dominen las finanzas y alcancen sus metas."
               icon={Calculator}
             ></Cards>
             <Cards
-              bgColor=" bg-[#19B2EB] "
-              circleOutline="outline-[#19B2EB]"
+              bgColor=" bg-SKYBLUE-600 "
+              circleOutline="outline-SKYBLUE-600"
               title="Aprender Divirtiéndose"
               text="Convierte el dinero en un juego. Desde niños, fomentamos hábitos
                       financieros saludables para un futuro brillante"

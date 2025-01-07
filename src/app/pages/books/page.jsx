@@ -12,7 +12,7 @@ function Books() {
           alt="Background"
           className="object-cover absolute z-0"
         />
-        <div className="bg-gradient-to-br from-PURPLE-400/90  to-BLUE-700/90 w-[100%]  h-[100%] absolute  z-10 "></div>
+        <div className="bg-gradient-to-br from-PRIMARY-400/90  to-BLUE-700/90 w-[100%]  h-[100%] absolute  z-10 "></div>
 
         <div className="w-full h-[20px] bg-white absolute bottom-[20px] z-20" />
         <div className="w-full h-[10px] bg-white absolute bottom-[50px] z-20" />

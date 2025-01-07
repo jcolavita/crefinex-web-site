@@ -24,7 +24,7 @@ function Courses() {
             bg-slate-200 w-full rounded-t-xl h-[40px] px-2 hover:h-[50px] transition-all ease-in-out truncate
             ${
               selectedModulo === "todos"
-                ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[50px] font-semibold  text-white shadow-lg shadow-slate-500"
+                ? "bg-gradient-to-br from-PRIMARY-500 to-BLUE-700 h-[50px] font-semibold  text-white shadow-lg shadow-slate-500"
                 : " bg-slate-200 text-BLUE-700"
             }
           `}
@@ -39,7 +39,7 @@ function Courses() {
                w-full rounded-t-xl px-2 h-[40px] lg:hover:h-[50px] transition-all ease-in-out text-sm md:text-base  truncate
               ${
                 selectedModulo === moduloUnico
-                  ? "bg-gradient-to-br from-PURPLE-500 to-BLUE-700 h-[50px] font-semibold text-white shadow-lg shadow-slate-500"
+                  ? "bg-gradient-to-br from-PRIMARY-500 to-BLUE-700 h-[50px] font-semibold text-white shadow-lg shadow-slate-500"
                   : " bg-slate-200 text-BLUE-700 "
               }
             `}

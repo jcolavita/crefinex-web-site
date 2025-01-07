@@ -8,8 +8,8 @@ export default function PilarSection() {
   return (
     <div className="w-full  mt-[25px]  font-lexend bg-white">
       <div className="flex flex-col gap-2">
-        <div className="w-full h-5 bg-gradient-to-br from-PURPLE-500 to-BLUE-700"></div>
-        <div className="w-full h-2 bg-gradient-to-br from-PURPLE-500 to-BLUE-700"></div>
+        <div className="w-full h-5 bg-gradient-to-br from-PRIMARY-500 to-BLUE-700"></div>
+        <div className="w-full h-2 bg-gradient-to-br from-PRIMARY-500 to-BLUE-700"></div>
       </div>
       <div className="lg:px-[100px] md:px-[50px] px-[25px] pt-5  w-full  ">
         <h3 className="text-2xl lg:text-4xl md:text-3xl font-medium text-center text-BLUE-700">
@@ -21,7 +21,7 @@ export default function PilarSection() {
             title={"Mentalidad y bienestar"}
             description="No solo enseñamos a los jóvenes a manejar su dinero, sino que
               también les ayudamos a desarrollar una relación sana con él."
-            className=" bg-PURPLE-300/40"
+            className=" bg-PRIMARY-300/40"
           />
 
           <Pilars
@@ -29,7 +29,7 @@ export default function PilarSection() {
             title={"Liderazgo"}
             description=" Nuestro enfoque en el liderazgo desarrolla habilidades esenciales
               para alcanzar el éxito financiero y personal a largo plazo."
-            className=" bg-[#ffff58cb]"
+            className=" bg-YELLOW-500/60"
           />
           <Pilars
             number={Number3}

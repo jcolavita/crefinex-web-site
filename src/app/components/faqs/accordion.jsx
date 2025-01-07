@@ -29,8 +29,8 @@ function Accordionlist() {
       className="  mb-[8px] "
       buttonProps={{
         className: ({ isEnter }) =>
-          `bg-white lg:hover:bg-PURPLE-100 cursor-pointer flex items-center  w-full font-semibold text-BLUE-700 py-2 px-4 transition-all ease-in-out  ${
-            isEnter && "bg-PURPLE-100 itemBtnExpanded  "
+          `bg-white lg:hover:bg-PRIMARY-100 cursor-pointer flex items-center  w-full font-semibold text-BLUE-700 py-2 px-4 transition-all ease-in-out  ${
+            isEnter && "bg-PRIMARY-100 itemBtnExpanded  "
           }`,
       }}
       contentProps={{ className: "itemContent text-BLUE-700 bg-white" }}

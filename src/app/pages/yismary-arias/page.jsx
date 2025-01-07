@@ -11,7 +11,7 @@ function Page() {
       <div className=" flex  justify-center pb-[50px] md:pb-0">
         <div
           className={`w-[320px] h-[350px] relative rounded-3xl  
-            bg-gradient-to-br from-PURPLE-400 to-BLUE-700 shadow-slate-800 shadow-md`}
+            bg-gradient-to-br from-PRIMARY-400 to-BLUE-700 shadow-slate-800 shadow-md`}
         >
           <Image
             src={Yismary}

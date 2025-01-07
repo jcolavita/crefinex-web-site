@@ -1,11 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Crefinex Web Site
+# Crefinex Web Site
 
-## Tecnologies
-
-NextJs
-JavaScript
+This website is designed to showcase the Crefinex Academy, a platform dedicated to providing financial education for children and young adults. We aim to foster financial literacy from a young age through a variety of resources and tools.
 
 # installation
 
